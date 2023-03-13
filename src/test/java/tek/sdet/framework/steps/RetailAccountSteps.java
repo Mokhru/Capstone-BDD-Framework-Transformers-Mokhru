@@ -1,6 +1,7 @@
 package tek.sdet.framework.steps;
 
 import java.util.List;
+import java.util.Map;
 
 import org.junit.Assert;
 
@@ -39,6 +40,35 @@ public class RetailAccountSteps extends CommonUtility {
 		Assert.assertTrue(isElementDisplayed(factory.accountPage().personalInfoUpdateSuccessMessage));
 		logger.info("user profile information updated");
 	}
+	
+	@When("User enter below information")
+	public void userEnterBelowInformation(DataTable dataTable) {
+		List<Map<String, String>> passwordInform = dataTable.asMaps(String.class, String.class);
+
+	    sendText(factory.accountPage().profilePreviousPasswordField,
+	        passwordInform.get(0).get("previousPassword"));
+	    sendText(factory.accountPage().profileNewPasswordField, passwordInform.get(0).get("newPassword"));
+	    sendText(factory.accountPage().profileNewPassConfimField, passwordInform.get(0).get("confirmPassword"));
+
+	    logger.info("User entered old password   and updated to new password'" );
+	 
+	}
+	@When("User click on Change Password button")
+	public void userClickOnChangePasswordButton() {
+		click(factory.accountPage().profileChangePasswordButton);
+	    logger.info("User clicked on change Password Button");
+	
+	}
+	@Then("a message should be displayed {string}")
+	public void aMessageShouldBeDisplayedPasswordUpdatedSuccessfully(String expectMessage) {
+		waitTillPresence(factory.accountPage().passwordUpdateSuccessMessage);
+		Assert.assertEquals(expectMessage, factory.accountPage().passwordUpdateSuccessMessage.getText());
+		logger.info(expectMessage);
+	   
+	}
+
+
+
 	@When("User click on  Add address option")
 	public void userClickOnAddAddressOption() {
 		click(factory.accountPage().addAddressOption);
@@ -64,7 +94,7 @@ public class RetailAccountSteps extends CommonUtility {
 		click(factory.accountPage().addYourAddressButton);
 		logger.info("user clicked on Add your Address button");
 	}
-	@Then("a message should be displayed {string}")
+	@Then("Address message should be displayed {string}")
 	public void aMessageShouldBeDisplayed(String expectedMessage) {
 		waitTillPresence(factory.accountPage().addressAddedSuccessfullyMessage);
 		Assert.assertEquals(expectedMessage, factory.accountPage().addressAddedSuccessfullyMessage.getText());

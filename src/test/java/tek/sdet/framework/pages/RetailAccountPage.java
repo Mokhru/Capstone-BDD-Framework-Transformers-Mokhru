@@ -27,36 +27,51 @@ public class RetailAccountPage extends BaseSetup {
 	@FindBy(xpath = "//div[text()='Personal Information Updated Successfully']")
 	public WebElement personalInfoUpdateSuccessMessage;
 
+	@FindBy(id = "previousPasswordInput")
+	public WebElement profilePreviousPasswordField;
+
+	@FindBy(xpath = "//input[@id='newPasswordInput']")
+	public WebElement profileNewPasswordField;
+
+	@FindBy(css = "#confirmPasswordInput")
+	public WebElement profileNewPassConfimField;
+
+	@FindBy(xpath = "//button[@id='credentialsSubmitBtn']")
+	public WebElement profileChangePasswordButton;
+
+	@FindBy(xpath = "//div[text()='Password Updated Successfully']")
+	public WebElement passwordUpdateSuccessMessage;
+
 	@FindBy(xpath = "//div[@class='account__address-new']")
 	public WebElement addAddressOption;
-	
+
 	@FindBy(xpath = "//select[@id='countryDropdown']")
 	public WebElement country;
-	
+
 	@FindBy(id = "fullNameInput")
 	public WebElement fullNameField;
-	
+
 	@FindBy(id = "phoneNumberInput")
 	public WebElement phoneNumberField;
-	
+
 	@FindBy(id = "streetInput")
 	public WebElement streetAddressField;
-	
+
 	@FindBy(xpath = "//input[@id='apartmentInput']")
 	public WebElement apartmentNumber;
-	
+
 	@FindBy(id = "cityInput")
 	public WebElement cityField;
-	
+
 	@FindBy(xpath = "(//select[@class='account__address-new-dropdown'])[2]")
 	public WebElement stateDropDown;
-	
+
 	@FindBy(id = "zipCodeInput")
 	public WebElement zipCodeField;
-	
+
 	@FindBy(id = "addressBtn")
 	public WebElement addYourAddressButton;
-	
+
 	@FindBy(xpath = "//div[text()='Address Added Successfully']")
 	public WebElement addressAddedSuccessfullyMessage;
 

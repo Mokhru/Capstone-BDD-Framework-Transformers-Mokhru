@@ -397,3 +397,125 @@
 2023-03-11 22:51:10,432 [main] INFO logger_File - user clicked on Add address option
 2023-03-11 22:51:11,325 [main] INFO logger_File - user filled the new address form with information provided in data table
 2023-03-11 22:51:11,406 [main] INFO logger_File - user clicked on Add your Address button
+2023-03-12 23:37:14,158 [main] INFO logger_File - user is on retail website
+2023-03-12 23:37:14,161 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 23:37:14,291 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-12 23:37:14,509 [main] INFO logger_File - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964
+2023-03-12 23:37:14,586 [main] INFO logger_File - user clicked on login button
+2023-03-12 23:37:18,118 [main] INFO logger_File - user is on retail website
+2023-03-12 23:37:18,119 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 23:37:18,293 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-12 23:37:18,385 [main] INFO logger_File - user clicked on Create New Account button
+2023-03-12 23:37:18,926 [main] INFO logger_File - user filled the signUp information form
+2023-03-12 23:37:19,003 [main] INFO logger_File - user clicked on SignUpForm button
+2023-03-12 23:37:37,674 [main] INFO logger_File - user is on retail website
+2023-03-12 23:37:37,678 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 23:37:37,847 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-12 23:37:38,045 [main] INFO logger_File - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964
+2023-03-12 23:37:38,122 [main] INFO logger_File - user clicked on login button
+2023-03-12 23:37:41,621 [main] INFO logger_File - user is on retail website
+2023-03-12 23:37:41,622 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-12 23:37:41,794 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-12 23:37:41,886 [main] INFO logger_File - user clicked on Create New Account button
+2023-03-12 23:37:42,398 [main] INFO logger_File - user filled the signUp information form
+2023-03-12 23:37:42,474 [main] INFO logger_File - user clicked on SignUpForm button
+2023-03-12 23:37:42,751 [main] INFO logger_File - user is login into account page
+2023-03-13 00:45:55,160 [main] INFO logger_File - user is on retail website
+2023-03-13 00:45:55,163 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 00:45:55,280 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-13 00:45:55,499 [main] INFO logger_File - user entered email mohruniyozmamadova@gmail.com and password Mona1987!
+2023-03-13 00:45:55,573 [main] INFO logger_File - user clicked on login button
+2023-03-13 00:45:56,001 [main] INFO logger_File - user clicked on Account option
+2023-03-13 00:45:56,280 [main] INFO logger_File - User entered old password   and updated to new password'
+2023-03-13 00:45:56,358 [main] INFO logger_File - User clicked on change Password Button
+2023-03-13 00:54:17,998 [main] INFO logger_File - user is on retail website
+2023-03-13 00:54:18,001 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 00:54:18,125 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-13 00:54:18,339 [main] INFO logger_File - user entered email mohruniyozmamadova@gmail.com and password Mona1987!
+2023-03-13 00:54:18,415 [main] INFO logger_File - user clicked on login button
+2023-03-13 00:54:18,799 [main] INFO logger_File - user clicked on Account option
+2023-03-13 00:54:19,067 [main] INFO logger_File - User entered old password   and updated to new password'
+2023-03-13 00:54:19,143 [main] INFO logger_File - User clicked on change Password Button
+2023-03-13 01:01:10,213 [main] INFO logger_File - user is on retail website
+2023-03-13 01:01:10,215 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 01:01:10,349 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-13 01:01:10,566 [main] INFO logger_File - user entered email mohruniyozmamadova@gmail.com and password Mona1987!
+2023-03-13 01:01:10,641 [main] INFO logger_File - user clicked on login button
+2023-03-13 01:01:11,096 [main] INFO logger_File - user clicked on Account option
+2023-03-13 01:01:11,380 [main] INFO logger_File - User entered old password   and updated to new password'
+2023-03-13 01:01:11,456 [main] INFO logger_File - User clicked on change Password Button
+2023-03-13 01:05:47,642 [main] INFO logger_File - user is on retail website
+2023-03-13 01:05:47,645 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 01:05:47,824 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-13 01:05:48,029 [main] INFO logger_File - user entered email mohruniyozmamadova@gmail.com and password Test12345!
+2023-03-13 01:05:48,105 [main] INFO logger_File - user clicked on login button
+2023-03-13 01:07:39,893 [main] INFO logger_File - user is on retail website
+2023-03-13 01:07:39,896 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 01:07:40,071 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-13 01:07:40,279 [main] INFO logger_File - user entered email mohruniyozmamadova@gmail.com and password Mona1987!
+2023-03-13 01:07:40,353 [main] INFO logger_File - user clicked on login button
+2023-03-13 01:07:40,691 [main] INFO logger_File - user clicked on Account option
+2023-03-13 01:07:40,967 [main] INFO logger_File - User entered old password   and updated to new password'
+2023-03-13 01:07:41,041 [main] INFO logger_File - User clicked on change Password Button
+2023-03-13 01:07:41,942 [main] INFO logger_File - Password Updated Successfully
+2023-03-13 01:15:33,903 [main] INFO logger_File - user is on retail website
+2023-03-13 01:15:33,907 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 01:15:34,079 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-13 01:15:34,282 [main] INFO logger_File - user entered email mohruniyozmamadova@gmail.com and password Test12345!
+2023-03-13 01:15:34,357 [main] INFO logger_File - user clicked on login button
+2023-03-13 01:15:34,714 [main] INFO logger_File - user clicked on Account option
+2023-03-13 01:15:34,999 [main] INFO logger_File - user updated Name and Phone values 
+2023-03-13 01:15:58,549 [main] INFO logger_File - user is on retail website
+2023-03-13 01:15:58,549 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 01:15:58,722 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-13 01:15:58,923 [main] INFO logger_File - user entered email mohruniyozmamadova@gmail.com and password Test12345!
+2023-03-13 01:15:58,997 [main] INFO logger_File - user clicked on login button
+2023-03-13 01:15:59,312 [main] INFO logger_File - user clicked on Account option
+2023-03-13 01:15:59,575 [main] INFO logger_File - User entered old password   and updated to new password'
+2023-03-13 01:15:59,649 [main] INFO logger_File - User clicked on change Password Button
+2023-03-13 01:16:00,537 [main] INFO logger_File - Password Updated Successfully
+2023-03-13 01:16:03,717 [main] INFO logger_File - user is on retail website
+2023-03-13 01:16:03,717 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 01:16:03,855 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-13 01:16:04,071 [main] INFO logger_File - user entered email mohruniyozmamadova@gmail.com and password Test12345!
+2023-03-13 01:16:04,139 [main] INFO logger_File - user clicked on login button
+2023-03-13 01:18:37,866 [main] INFO logger_File - user is on retail website
+2023-03-13 01:18:37,869 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 01:18:38,056 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-13 01:18:38,259 [main] INFO logger_File - user entered email mohruniyozmamadova@gmail.com and password Test12345!
+2023-03-13 01:18:38,334 [main] INFO logger_File - user clicked on login button
+2023-03-13 01:19:47,810 [main] INFO logger_File - user is on retail website
+2023-03-13 01:19:47,813 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 01:19:48,004 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-13 01:19:48,207 [main] INFO logger_File - user entered email mohruniyozmamadova@gmail.com and password Mona1987!
+2023-03-13 01:19:48,282 [main] INFO logger_File - user clicked on login button
+2023-03-13 01:19:48,601 [main] INFO logger_File - user clicked on Account option
+2023-03-13 01:19:48,873 [main] INFO logger_File - User entered old password   and updated to new password'
+2023-03-13 01:19:48,947 [main] INFO logger_File - User clicked on change Password Button
+2023-03-13 01:19:49,835 [main] INFO logger_File - Password Updated Successfully
+2023-03-13 01:21:36,772 [main] INFO logger_File - user is on retail website
+2023-03-13 01:21:36,774 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 01:21:36,968 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-13 01:21:37,175 [main] INFO logger_File - user entered email mohruniyozmamadova@gmail.com and password Test12345!
+2023-03-13 01:21:37,249 [main] INFO logger_File - user clicked on login button
+2023-03-13 01:21:37,571 [main] INFO logger_File - user clicked on Account option
+2023-03-13 01:21:37,661 [main] INFO logger_File - user clicked on Add address option
+2023-03-13 01:21:38,579 [main] INFO logger_File - user filled the new address form with information provided in data table
+2023-03-13 01:21:38,662 [main] INFO logger_File - user clicked on Add your Address button
+2023-03-13 01:22:12,241 [main] INFO logger_File - user is on retail website
+2023-03-13 01:22:12,244 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 01:22:12,431 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-13 01:22:12,638 [main] INFO logger_File - user entered email mohruniyozmamadova@gmail.com and password Test12345!
+2023-03-13 01:22:12,709 [main] INFO logger_File - user clicked on login button
+2023-03-13 01:22:13,075 [main] INFO logger_File - user clicked on Account option
+2023-03-13 01:22:13,369 [main] INFO logger_File - user updated Name and Phone values 
+2023-03-13 01:22:13,454 [main] INFO logger_File - user clicked on Update button
+2023-03-13 01:22:49,632 [main] INFO logger_File - user is on retail website
+2023-03-13 01:22:49,635 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-13 01:22:49,804 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-13 01:22:50,014 [main] INFO logger_File - user entered email mohruniyozmamadova@gmail.com and password Test12345!
+2023-03-13 01:22:50,087 [main] INFO logger_File - user clicked on login button
+2023-03-13 01:22:50,419 [main] INFO logger_File - user clicked on Account option
+2023-03-13 01:22:50,701 [main] INFO logger_File - user updated Name and Phone values 
+2023-03-13 01:22:50,779 [main] INFO logger_File - user clicked on Update button
+2023-03-13 01:22:51,401 [main] INFO logger_File - user profile information updated
