@@ -21,12 +21,13 @@ public class RetailAccountSteps extends CommonUtility {
 		click(factory.homePage().accountOption);
 		logger.info("user clicked on Account option");
 	}
+	//update profile
 	@When("User update Name {string} and Phone {string}")
 	public void userUpdateNameAndPhone(String nameValue, String phoneValue) {
 		clearTextUsingSendKeys(factory.accountPage().profileNameInputField);
 		sendText(factory.accountPage().profileNameInputField, nameValue);
 		clearTextUsingSendKeys(factory.accountPage().profilePhoneNumberField);
-		sendText(factory.accountPage().profilePhoneNumberField, phoneValue);
+		sendText(factory.accountPage().profilePhoneNumberField, DataGeneratorUtility.data(phoneValue));
 		logger.info("user updated Name and Phone values ");
 	}
 	@When("User click on Update button")
@@ -53,6 +54,7 @@ public class RetailAccountSteps extends CommonUtility {
 	    logger.info("User entered old password   and updated to new password'" );
 	 
 	}
+	// update password
 	@When("User click on Change Password button")
 	public void userClickOnChangePasswordButton() {
 		click(factory.accountPage().profileChangePasswordButton);
@@ -66,9 +68,43 @@ public class RetailAccountSteps extends CommonUtility {
 		logger.info(expectMessage);
 	   
 	}
+	//add new card
+	@When("User click on Add a payment method link")
+	public void userClickOnAddAPaymentMethodLink() {
+		click(factory.accountPage().addPayment);
+		logger.info("User clicked on Add a payment");
+		
+	}
+	@When("User fill Debit or credit card information")
+	public void userFillDebitOrCreditCardInformation(DataTable dataTable) throws InterruptedException {
+		
+		List<Map<String, String>> cardInfo = dataTable.asMaps(String.class, String.class);
+		sendText(factory.accountPage().cardNumberInput,DataGeneratorUtility.data(cardInfo.get(0).get("cardNumber")));
+		sendText(factory.accountPage().nameOnCardInput,DataGeneratorUtility.data(cardInfo.get(0).get("nameOnCard")));
+		sendText(factory.accountPage().cardExpMonthInput, cardInfo.get(0).get("expirationMonth"));
+		sendText(factory.accountPage().cardExpYearInput, cardInfo.get(0).get("expirationYear"));
+		sendText(factory.accountPage().cardSecCodeInput, cardInfo.get(0).get("securityCode"));
+		logger.info("Usser filled card info");
+		
+	}
+	
+	@When("User click on Add your card button")
+	public void userClickOnAddYourCardButton() {
+		click(factory.accountPage().addYourCardButton);
+		logger.info("User click on Add Your Card Button");
+	    
+	}
+	@Then("Card added message should be displayed {string}")
+	public void cardMessageShouldBeDisplayed(String cardexpectMessage) {
+		waitTillPresence(factory.accountPage().cardAddedSuccesfullyMessage);
+		Assert.assertEquals(cardexpectMessage, factory.accountPage().cardAddedSuccesfullyMessage.getText());
+		logger.info(cardexpectMessage);
+		
+		
+	}
+	    
 
-
-
+// add new address
 	@When("User click on  Add address option")
 	public void userClickOnAddAddressOption() {
 		click(factory.accountPage().addAddressOption);

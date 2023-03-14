@@ -1,30 +1,31 @@
-
+@completeTest
 Feature: Retail Application Account Feature
 
   Background: 
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'mohruniyozmamadova@gmail.com' and password 'Test12345!'
+    And User enter email 'mohruniyozmamadova@gmail.com' and password 'Zarrina1964!'
     And User click on login button
     And User should be logged in into Account
-    
-@updateProfile
+
+  @updateProfile
   Scenario: Verify User can update Profile Information
     When User click on Account option
-    And User update Name 'Transformersm' and Phone '3475645996'
+    And User update Name 'Mokhru' and Phone 'PhoneNumber'
     And User click on Update button
     Then User profile information should be updated
 
-@updatePassword
-  Scenario: Verify User can Update password
+  @addPayment
+  Scenario: Verify User can add a payment method
     When User click on Account option
-    And User enter below information
-      | previousPassword | newPassword | confirmPassword |
-      | Test12345!      | Mona1987!  | Mona1987!      |
-    And User click on Change Password button
-    Then a message should be displayed 'Password Updated Successfully'
+    And User click on Add a payment method link
+    And User fill Debit or credit card information
+      | cardNumber | nameOnCard | expirationMonth | expirationYear | securityCode |
+      | cardNumber | fullName   |               6 |           2025 |          235 |
+    And User click on Add your card button
+    Then Card added message should be displayed 'Payment Method added sucessfully'
 
-@addAddress
+  @addAddress
   Scenario: Verify User can add  an Address
     When User click on Account option
     And User click on  Add address option

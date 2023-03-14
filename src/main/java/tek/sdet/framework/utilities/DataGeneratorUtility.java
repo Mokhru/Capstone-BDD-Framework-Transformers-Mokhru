@@ -3,9 +3,11 @@ package tek.sdet.framework.utilities;
 import net.datafaker.Faker;
 
 public class DataGeneratorUtility {
-	
-	
+	public static void main(String[] args) {
 
+		System.out.println(data("fullName"));
+
+	}
 
 	public static String data(String input) {
 
@@ -34,7 +36,19 @@ public class DataGeneratorUtility {
 			outPut = "United States";
 		}else if(input.equals("apt")) {
 			outPut = faker.address().secondaryAddress();
+		}else if (input.equals("cardNumber")) {
+		outPut = faker.expression("#{numerify '################'}");
 		}
+		
+			
+		
+		/*else if(input.equals("previousPassword")){
+			outPut = faker.internet().password();	
+		}
+		else if(input.equals("newPassword")) {
+			outPut = faker.internet().password();
+			
+		}*/
 
 		return outPut;
 	}

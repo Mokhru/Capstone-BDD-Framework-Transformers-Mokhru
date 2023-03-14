@@ -41,6 +41,30 @@ public class RetailAccountPage extends BaseSetup {
 
 	@FindBy(xpath = "//div[text()='Password Updated Successfully']")
 	public WebElement passwordUpdateSuccessMessage;
+	
+	@FindBy(xpath = "//p[text()='Add a payment method']")
+	  public WebElement addPayment;
+
+	  @FindBy(xpath = "//input[@id='cardNumberInput']")
+	  public WebElement cardNumberInput;
+
+	  @FindBy(xpath = " //input[@id='nameOnCardInput']")
+	  public WebElement nameOnCardInput;
+
+	  @FindBy(xpath = "//select[@id='expirationMonthInput']")
+	  public WebElement cardExpMonthInput;
+
+	  @FindBy(css = "#expirationYearInput")
+	  public WebElement cardExpYearInput;
+
+	  @FindBy(xpath = "//input[@id='securityCodeInput']")
+	  public WebElement cardSecCodeInput;
+
+	  @FindBy(xpath = "//button[@id='paymentSubmitBtn']")
+	  public WebElement addYourCardButton;
+
+	  @FindBy(xpath = "//div[contains(text(),'Payment Method added sucessfully')]")
+	  public WebElement cardAddedSuccesfullyMessage;
 
 	@FindBy(xpath = "//div[@class='account__address-new']")
 	public WebElement addAddressOption;
