@@ -11,7 +11,7 @@ Feature: Retail Application Account Feature
   @updateProfile
   Scenario: Verify User can update Profile Information
     When User click on Account option
-    And User update Name 'Mokhru' and Phone 'PhoneNumber'
+    And User update Name 'firstName' and Phone 'PhoneNumber'
     And User click on Update button
     Then User profile information should be updated
 
@@ -24,6 +24,22 @@ Feature: Retail Application Account Feature
       | cardNumber | fullName   |               6 |           2025 |          235 |
     And User click on Add your card button
     Then Card added message should be displayed 'Payment Method added sucessfully'
+
+  @editCard
+  Scenario: Verify User can edit Debit or Credit card
+    When User click on Account option
+    And User click on Edit option of card section
+    And user edit information with below data
+      | cardNumber | nameOnCard | expirationMonth | expirationYear | securityCode |
+      | cardNumber | fullName   |               8 |           2026 |          666 |
+    And user click on Update Your Card button
+    Then Card updated message should be displayed 'Payment Method updated Successfully'
+
+  @removeCard
+  Scenario: Verify User can remove Debit or Credit card
+    When User click on Account option
+    And User click on remove option of card section
+    Then payment details should be removed
 
   @addAddress
   Scenario: Verify User can add  an Address

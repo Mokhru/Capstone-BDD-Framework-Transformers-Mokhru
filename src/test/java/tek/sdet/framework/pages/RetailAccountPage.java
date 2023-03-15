@@ -1,5 +1,7 @@
 package tek.sdet.framework.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -65,6 +67,36 @@ public class RetailAccountPage extends BaseSetup {
 
 	  @FindBy(xpath = "//div[contains(text(),'Payment Method added sucessfully')]")
 	  public WebElement cardAddedSuccesfullyMessage;
+  
+	  @FindBy(xpath = "(//div[@class = 'false account__payment-item'])[1]")
+	  public WebElement cardSelectButton;
+
+	  @FindBy(xpath = "(//button[contains(text(), 'Edit')])[1]")
+	  public WebElement cardEditButton;
+
+	  @FindBy(xpath = "//input[@id='cardNumberInput']")
+	  public WebElement editCardNumberInput;
+
+	  @FindBy(xpath = "//input[@id='nameOnCardInput']")
+	  public WebElement editNameOnCardInput;
+	  
+	  @FindBy(xpath = "//select[@id='expirationMonthInput']")
+	  public WebElement editExpMonthOnCardInpu;
+	  
+	  @FindBy(xpath = "//select[@id='expirationYearInput']")
+	  public WebElement editExpYearOnCardInput;
+	  
+	  @FindBy(xpath = "//input[@id='securityCodeInput']")
+	  public WebElement editSecCodeonCard;
+	  
+	  @FindBy(xpath = "//button[@id='paymentSubmitBtn']")
+	  public WebElement updateCardButton;
+	  
+	  @FindBy(xpath = "//div[contains(text(),'Payment Method updated Successfully')]")
+	  public WebElement updateCardSuccessMessage;
+	  
+	  @FindBy(xpath = "//button[contains(text(),'remove')]")
+	  public WebElement removeCardButton;
 
 	@FindBy(xpath = "//div[@class='account__address-new']")
 	public WebElement addAddressOption;

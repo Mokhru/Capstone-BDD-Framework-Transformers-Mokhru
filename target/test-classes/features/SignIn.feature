@@ -10,6 +10,7 @@ Feature: TEK Retail Application SignIn feature
     And User click on login button
     Then User should be logged in into Account
 
+  @createAccount
   Scenario: Verify user can create an acount into Retail Website
     And User click on Create New Account button
     And User fill the signUp information with below data

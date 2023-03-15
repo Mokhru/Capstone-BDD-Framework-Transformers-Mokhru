@@ -25,7 +25,7 @@ public class RetailAccountSteps extends CommonUtility {
 	@When("User update Name {string} and Phone {string}")
 	public void userUpdateNameAndPhone(String nameValue, String phoneValue) {
 		clearTextUsingSendKeys(factory.accountPage().profileNameInputField);
-		sendText(factory.accountPage().profileNameInputField, nameValue);
+		sendText(factory.accountPage().profileNameInputField, DataGeneratorUtility.data(nameValue));
 		clearTextUsingSendKeys(factory.accountPage().profilePhoneNumberField);
 		sendText(factory.accountPage().profilePhoneNumberField, DataGeneratorUtility.data(phoneValue));
 		logger.info("user updated Name and Phone values ");
@@ -41,7 +41,7 @@ public class RetailAccountSteps extends CommonUtility {
 		Assert.assertTrue(isElementDisplayed(factory.accountPage().personalInfoUpdateSuccessMessage));
 		logger.info("user profile information updated");
 	}
-	
+	// update password
 	@When("User enter below information")
 	public void userEnterBelowInformation(DataTable dataTable) {
 		List<Map<String, String>> passwordInform = dataTable.asMaps(String.class, String.class);
@@ -54,7 +54,7 @@ public class RetailAccountSteps extends CommonUtility {
 	    logger.info("User entered old password   and updated to new password'" );
 	 
 	}
-	// update password
+	
 	@When("User click on Change Password button")
 	public void userClickOnChangePasswordButton() {
 		click(factory.accountPage().profileChangePasswordButton);
@@ -101,6 +101,56 @@ public class RetailAccountSteps extends CommonUtility {
 		logger.info(cardexpectMessage);
 		
 		
+	}
+	//Edit Card
+	@When("User click on Edit option of card section")
+	public void userClickOnEditOptionOfCardSection(){
+		click(factory.accountPage().cardSelectButton);
+		click(factory.accountPage().cardEditButton);
+		logger.info("User choose first card and clicked in Edit Button");
+	    
+	}
+	@When("user edit information with below data")
+	public void userEditInformationWithBelowData(DataTable dataTable){
+		List<Map<String, String>> cardUpdateInfo = dataTable.asMaps(String.class, String.class);
+		clearTextUsingSendKeys(factory.accountPage().editCardNumberInput);
+		sendText(factory.accountPage().editCardNumberInput,DataGeneratorUtility.data(cardUpdateInfo.get(0).get("cardNumber")));
+		clearTextUsingSendKeys(factory.accountPage().editNameOnCardInput);
+		sendText(factory.accountPage().editNameOnCardInput,DataGeneratorUtility.data(cardUpdateInfo.get(0).get("nameOnCard")));
+		sendText(factory.accountPage().editExpMonthOnCardInpu, cardUpdateInfo.get(0).get("expirationMonth"));
+		sendText(factory.accountPage().editExpYearOnCardInput, cardUpdateInfo.get(0).get("expirationYear"));
+		clearTextUsingSendKeys(factory.accountPage().editSecCodeonCard);
+		sendText(factory.accountPage().editSecCodeonCard, cardUpdateInfo.get(0).get("securityCode"));
+		logger.info("Usser filled updated card info");
+	    
+	}
+	@When("user click on Update Your Card button")
+	public void userClickOnUpdateYourCardButton() {
+		click(factory.accountPage().updateCardButton);
+		logger.info("user clicked on update button");
+	   
+	}
+	@Then("Card updated message should be displayed {string}")
+	public void cardUpdatedMessageShouldBeDisplayed(String cardUpdatedexpectMessage) {
+		waitTillPresence(factory.accountPage().updateCardSuccessMessage);
+		Assert.assertEquals(cardUpdatedexpectMessage, factory.accountPage().updateCardSuccessMessage.getText());
+		logger.info(cardUpdatedexpectMessage);
+		
+	}
+	
+	//remove card
+	@When("User click on remove option of card section")
+	public void userClickOnRemoveOptionOfCardSection() {
+		click(factory.accountPage().cardSelectButton);
+		logger.info("User selected card for remove");
+	   
+	}
+	@Then("payment details should be removed")
+	public void paymentDetailsShouldBeRemoved() {
+		String removedCard = getText(factory.accountPage().cardSelectButton);
+		click(factory.accountPage().removeCardButton);
+		logger.info(removedCard + " Card removed successfully!");
+		  
 	}
 	    
 
