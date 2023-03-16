@@ -15,6 +15,7 @@ import tek.sdet.framework.utilities.DataGeneratorUtility;
 public class RetailAccountSteps extends CommonUtility {
 
 	POMFactory factory = new POMFactory();
+	String addressText;
 
 	@When("User click on Account option")
 	public void userClickOnAccountOption() {
@@ -187,4 +188,61 @@ public class RetailAccountSteps extends CommonUtility {
 		
 
 	}
+//update address
+@When("User click on edit address option")
+public void userClickOnEditAddressOption() {
+	click(factory.accountPage().editAddressButton);
+	logger.info("User clicked on Edit button in the address");
+   
+}
+@When("user fill new address form with below information")
+public void userFillNewAddressFormWithBelowInformation(io.cucumber.datatable.DataTable dataTable) {
+	List<List<String>> udateaddressInfo = dataTable.asLists(String.class);
+	selectByVisibleText(factory.accountPage().country,DataGeneratorUtility.data(udateaddressInfo.get(0).get(0)));
+	clearTextUsingSendKeys(factory.accountPage().fullNameField);
+	sendText(factory.accountPage().fullNameField,DataGeneratorUtility.data(udateaddressInfo.get(0).get(1)));
+	clearTextUsingSendKeys(factory.accountPage().phoneNumberField);
+	sendText(factory.accountPage().phoneNumberField,DataGeneratorUtility.data(udateaddressInfo.get(0).get(2)));
+	clearTextUsingSendKeys(factory.accountPage().streetAddressField);
+	sendText(factory.accountPage().streetAddressField, DataGeneratorUtility.data(udateaddressInfo.get(0).get(3)));
+	clearTextUsingSendKeys(factory.accountPage().apartmentNumber);
+	sendText(factory.accountPage().apartmentNumber, DataGeneratorUtility.data(udateaddressInfo.get(0).get(4)));
+	clearTextUsingSendKeys(factory.accountPage().cityField);
+	sendText(factory.accountPage().cityField,DataGeneratorUtility.data(udateaddressInfo.get(0).get(5)));
+	selectByVisibleText(factory.accountPage().stateDropDown,DataGeneratorUtility.data(udateaddressInfo.get(0).get(6)));
+	clearTextUsingSendKeys(factory.accountPage().zipCodeField);
+	sendText(factory.accountPage().zipCodeField,DataGeneratorUtility.data(udateaddressInfo.get(0).get(7)));
+	logger.info("user filled the update address form with information provided in data table");
+}
+@When("User click update Your Address button")
+public void userClickUpdateYourAddressButton() throws InterruptedException {
+	Thread.sleep(2000);
+click(factory.accountPage().updateAddressButton);
+logger.info("User clicked on Update Address Button");
+}
+@Then("Updated address message should be displayed {string}")
+public void updatedAddressMessageShouldBeDisplayed(String updatedExpectedAddressMessage) {
+	waitTillPresence(factory.accountPage().updatedAddressSuccessMessage);
+	Assert.assertEquals(updatedExpectedAddressMessage, factory.accountPage().updatedAddressSuccessMessage.getText());
+	logger.info(updatedExpectedAddressMessage);
+
+}
+
+
+//remove address
+@When("User click on remove option of Address section")
+public void userClickOnRemoveOptionOfAddressSection() {
+	addressText = getText(factory.accountPage().alladdressesBox);
+	click(factory.accountPage().removeAddressOption);
+	logger.info("User clicked in Remove Button");
+   
+}
+@Then("Address details should be removed")
+public void addressDetailsShouldBeRemoved() {
+	Assert.assertNotEquals(addressText, factory.accountPage().alladdressesBox);
+	logger.info(addressText + " User delete the address from the account");
+  
+}
+
+
 }

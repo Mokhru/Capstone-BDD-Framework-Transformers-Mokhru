@@ -49,3 +49,18 @@ Feature: Retail Application Account Feature
       | country | fullName | PhoneNumber | StreetAddress | apt | city | state | zipCode |
     And User click Add Your Address button
     Then Address message should be displayed 'Address Added Successfully'
+
+@editAddress
+  Scenario: Verify User can edit an Address added on account
+    When User click on Account option
+    And User click on edit address option
+    And user fill new address form with below information
+     | country | fullName | PhoneNumber | StreetAddress | apt | city | state | zipCode |
+    And User click update Your Address button
+    Then Updated address message should be displayed 'Address Updated Successfully'
+
+@removeAddress
+  Scenario: Verify User can remove Address from Account
+    When User click on Account option
+    And User click on remove option of Address section
+    Then Address details should be removed
