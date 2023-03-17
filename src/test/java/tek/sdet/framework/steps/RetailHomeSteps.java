@@ -16,7 +16,7 @@ import tek.sdet.framework.utilities.CommonUtility;
 public class RetailHomeSteps extends CommonUtility {
 
 	private POMFactory factory = new POMFactory();
-	
+
 	@Given("User is on retail website")
 	public void userIsOnRetailWebsite() {
 		String actualTitle = getTitle();
@@ -100,6 +100,61 @@ public class RetailHomeSteps extends CommonUtility {
 			}
 
 		}
+
+	}
+
+	// add Item to cart
+	@When("User change the category to {string}")
+	public void userChangeTheCategoryTo(String categoryOption) {
+		click(factory.homePage().allDepartmentDropDown);
+		selectByVisibleText(factory.homePage().allDepartmentDropDown, categoryOption);
+		logger.info("User clicked in all department and chose " + categoryOption);
+
+	}
+
+	@When("User search for an item {string}")
+	public void userSearchForAnItem(String itemValue) {
+		sendText(factory.homePage().searchBar, itemValue);
+		logger.info("User entered and search for an Item " + itemValue);
+
+	}
+
+	@When("User click on Search icon")
+	public void userClickOnSearchIcon()  {
+		click(factory.homePage().searchButton);
+		logger.info("User clicked on Search Button");
+
+	}
+
+	@When("User click on item")
+	public void userClickOnItem() {
+		click(factory.homePage().itemField);
+		logger.info("User clicked on searched Item");
+
+	}
+
+	@When("User select quantity {string}")
+	public void userSelectQuantity(String itemQuantity)  {
+		click(factory.homePage().ItemQuantity);
+		selectByVisibleText(factory.homePage().ItemQuantity, itemQuantity);
+	
+		logger.info("User selected quantity " + itemQuantity);
+
+	}
+
+	@When("User click add to Cart button")
+	public void userClickAddToCartButton() {
+		click(factory.homePage().addCartButton);
+		logger.info("User clicked in Add Cart Button" );
+		
+
+	}
+
+	@Then("the cart icon quantity should change to {string}")
+	public void theCartIconQuantityShouldChangeTo(String cartQuantityValueExpected){
+		String cartQuantityActual = factory.homePage().cartQuantity.getText();
+		Assert.assertEquals(cartQuantityActual, cartQuantityValueExpected);
+		logger.info("The Cart quantity changed to " + cartQuantityValueExpected);
 
 	}
 
