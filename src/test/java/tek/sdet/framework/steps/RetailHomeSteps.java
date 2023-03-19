@@ -157,5 +157,42 @@ public class RetailHomeSteps extends CommonUtility {
 		logger.info("The Cart quantity changed to " + cartQuantityValueExpected);
 
 	}
+	//placed order without address and payment
+	@Then("User click on Cart option")
+	public void userClickOnCartOption() {
+		click(factory.homePage().cartButton);
+		logger.info("User clicked on Cart Button");
+
+	}
+	@Then("User click on Proceed to Checkout button")
+	public void userClickOnProceedToCheckoutButton() {
+		click(factory.homePage().proceedButton);
+		logger.info("User clicked on proceed to checkout Button");
+	    
+	}
+	@Then("User click Add a new address link for shipping address")
+	public void userClickAddANewAddressLinkForShippingAddress() {
+		click(factory.homePage().checkoutAddressButton);
+		logger.info("User clicked on Add a new address button");
+	    
+	}
+	@Then("User click Add a credit card or Debit Card for Payment method")
+	public void userClickAddACreditCardOrDebitCardForPaymentMethod() {
+		click(factory.homePage().checkoutCardButton);
+		logger.info("User clicked on Add a new cared Button");
+	   
+	}
+	@Then("User click on Place Your Order")
+	public void userClickOnPlaceYourOrder() {
+		click(factory.homePage().placeYourOrderButton);
+		logger.info("User clicked on Place your order Button");
+	    
+	}
+	@Then("Place Order  message should be displayed {string}")
+	public void placeOrderMessageShouldBeDisplayed(String orderExpectSuccessMessage) {
+		waitTillPresence(factory.homePage().placedOrderSuccessMessage);
+		Assert.assertEquals(orderExpectSuccessMessage, factory.homePage().placedOrderSuccessMessage.getText());
+		logger.info(orderExpectSuccessMessage);
+	}
 
 }
