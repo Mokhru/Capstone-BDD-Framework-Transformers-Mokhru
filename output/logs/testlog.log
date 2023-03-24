@@ -2472,3 +2472,464 @@ Remove User delete the address from the account
 2023-03-19 15:41:49,338 - logger_File -INFO - user filled the signUp information form
 2023-03-19 15:41:49,407 - logger_File -INFO - user clicked on SignUpForm button
 2023-03-19 15:41:49,671 - logger_File -INFO - user is login into account page
+2023-03-22 12:45:56,557 - logger_File -INFO - user is on retail website
+2023-03-22 12:45:56,562 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-22 12:45:59,073 - logger_File -INFO - user is on retail website
+2023-03-22 12:45:59,073 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-22 12:46:01,567 - logger_File -INFO - user is on retail website
+2023-03-22 12:46:01,567 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-22 12:51:54,853 - logger_File -INFO - user is on retail website
+2023-03-22 12:51:54,856 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-22 12:53:12,504 - logger_File -INFO - user is on retail website
+2023-03-22 12:53:12,507 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-22 12:53:12,637 - logger_File -INFO - User clicked on Sign in Option
+2023-03-22 12:53:12,856 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-22 12:53:12,929 - logger_File -INFO - user clicked on login button
+2023-03-23 17:10:02,734 - logger_File -INFO - user is on retail website
+2023-03-23 17:10:02,738 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 17:10:02,913 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 17:10:03,113 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 17:10:03,185 - logger_File -INFO - user clicked on login button
+2023-03-23 17:10:03,589 - logger_File -INFO - User clicked on Orders section
+2023-03-23 17:10:04,668 - logger_File -INFO - User clicked on first order in list
+2023-03-23 17:11:06,242 - logger_File -INFO - user is on retail website
+2023-03-23 17:11:06,244 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 17:11:06,438 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 17:11:06,629 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 17:11:06,696 - logger_File -INFO - user clicked on login button
+2023-03-23 17:11:07,017 - logger_File -INFO - User clicked on Orders section
+2023-03-23 17:11:09,105 - logger_File -INFO - User clicked on first order in list
+2023-03-23 17:26:04,327 - logger_File -INFO - user is on retail website
+2023-03-23 17:26:04,330 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 17:26:04,553 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 17:26:04,797 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 17:26:04,871 - logger_File -INFO - user clicked on login button
+2023-03-23 17:26:05,214 - logger_File -INFO - User clicked on Orders section
+2023-03-23 17:26:07,296 - logger_File -INFO - User clicked on first order in list
+2023-03-23 17:26:07,383 - logger_File -INFO - User clicked in Cancel the Order Button
+2023-03-23 17:26:07,473 - logger_File -INFO - User selected the cancelation reason Bought wrong item
+2023-03-23 17:35:23,591 - logger_File -INFO - user is on retail website
+2023-03-23 17:35:23,594 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 17:35:23,716 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 17:35:23,938 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 17:35:24,010 - logger_File -INFO - user clicked on login button
+2023-03-23 17:35:24,363 - logger_File -INFO - User clicked on Orders section
+2023-03-23 17:35:26,458 - logger_File -INFO - User clicked on first order in list
+2023-03-23 17:35:26,533 - logger_File -INFO - User clicked in Cancel the Order Button
+2023-03-23 17:35:26,608 - logger_File -INFO - User selected the cancelation reason Bought wrong item
+2023-03-23 17:35:26,676 - logger_File -INFO - User clicked on Cancel order Button
+2023-03-23 17:40:02,259 - logger_File -INFO - user is on retail website
+2023-03-23 17:40:02,262 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 17:40:02,404 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 17:40:02,603 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 17:40:02,674 - logger_File -INFO - user clicked on login button
+2023-03-23 17:40:03,056 - logger_File -INFO - User clicked on Orders section
+2023-03-23 17:40:05,134 - logger_File -INFO - User clicked on first order in list
+2023-03-23 21:42:07,894 - logger_File -INFO - user is on retail website
+2023-03-23 21:42:07,898 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 21:42:08,004 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 21:42:08,208 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 21:42:08,281 - logger_File -INFO - user clicked on login button
+2023-03-23 21:42:08,647 - logger_File -INFO - User clicked on Orders section
+2023-03-23 21:42:08,784 - logger_File -INFO - User clicked on first order in list
+2023-03-23 21:46:20,336 - logger_File -INFO - user is on retail website
+2023-03-23 21:46:20,339 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 21:46:20,445 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 21:46:20,657 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 21:46:20,725 - logger_File -INFO - user clicked on login button
+2023-03-23 21:46:21,162 - logger_File -INFO - User clicked on Orders section
+2023-03-23 21:46:21,395 - logger_File -INFO - User clicked on first order in list
+2023-03-23 21:48:46,203 - logger_File -INFO - user is on retail website
+2023-03-23 21:48:46,205 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 21:48:46,313 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 21:48:46,529 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 21:48:46,596 - logger_File -INFO - user clicked on login button
+2023-03-23 21:48:47,100 - logger_File -INFO - User clicked on Orders section
+2023-03-23 21:48:47,494 - logger_File -INFO - User clicked on first order in list
+2023-03-23 21:52:09,880 - logger_File -INFO - user is on retail website
+2023-03-23 21:52:09,884 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 21:52:10,011 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 21:52:10,232 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 21:52:10,303 - logger_File -INFO - user clicked on login button
+2023-03-23 21:52:10,663 - logger_File -INFO - User clicked on Orders section
+2023-03-23 21:52:11,087 - logger_File -INFO - User clicked on first order in list
+2023-03-23 22:11:41,155 - logger_File -INFO - user is on retail website
+2023-03-23 22:11:41,158 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 22:11:41,287 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 22:11:41,497 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 22:11:41,568 - logger_File -INFO - user clicked on login button
+2023-03-23 22:11:41,896 - logger_File -INFO - User clicked on Orders section
+2023-03-23 22:11:42,446 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 22:26:54,456 - logger_File -INFO - user is on retail website
+2023-03-23 22:26:54,459 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 22:26:54,586 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 22:26:54,804 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 22:26:54,870 - logger_File -INFO - user clicked on login button
+2023-03-23 22:26:55,274 - logger_File -INFO - User clicked on Orders section
+2023-03-23 22:26:55,498 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 22:29:56,412 - logger_File -INFO - user is on retail website
+2023-03-23 22:29:56,415 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 22:29:56,531 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 22:29:56,737 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 22:29:56,805 - logger_File -INFO - user clicked on login button
+2023-03-23 22:29:57,167 - logger_File -INFO - User clicked on Orders section
+2023-03-23 22:29:58,049 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 22:29:58,137 - logger_File -INFO - User clicked in Cancel the Order Button
+2023-03-23 22:29:58,207 - logger_File -INFO - User selected the cancelation reason Bought wrong item
+2023-03-23 22:29:58,274 - logger_File -INFO - User clicked on Cancel order Button
+2023-03-23 22:29:58,364 - logger_File -INFO - Your Order Has Been Cancelled
+2023-03-23 22:32:55,519 - logger_File -INFO - user is on retail website
+2023-03-23 22:32:55,523 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 22:32:55,667 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 22:32:55,868 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 22:32:55,940 - logger_File -INFO - user clicked on login button
+2023-03-23 22:32:56,245 - logger_File -INFO - User clicked on Orders section
+2023-03-23 22:32:58,085 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 22:32:58,176 - logger_File -INFO - User clicked in Cancel the Order Button
+2023-03-23 22:32:58,249 - logger_File -INFO - User selected the cancelation reason Bought wrong item
+2023-03-23 22:32:58,315 - logger_File -INFO - User clicked on Cancel order Button
+2023-03-23 22:32:58,456 - logger_File -INFO - Your Order Has Been Cancelled
+2023-03-23 22:33:28,797 - logger_File -INFO - user is on retail website
+2023-03-23 22:33:28,799 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 22:33:28,961 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 22:33:29,169 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 22:33:29,240 - logger_File -INFO - user clicked on login button
+2023-03-23 22:33:29,582 - logger_File -INFO - User clicked on Orders section
+2023-03-23 22:33:35,341 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 22:33:35,431 - logger_File -INFO - User clicked in Cancel the Order Button
+2023-03-23 22:33:35,503 - logger_File -INFO - User selected the cancelation reason Bought wrong item
+2023-03-23 22:33:35,575 - logger_File -INFO - User clicked on Cancel order Button
+2023-03-23 22:33:35,655 - logger_File -INFO - Your Order Has Been Cancelled
+2023-03-23 22:38:26,901 - logger_File -INFO - user is on retail website
+2023-03-23 22:38:26,904 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 22:38:27,085 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 22:38:27,274 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 22:38:27,342 - logger_File -INFO - user clicked on login button
+2023-03-23 22:38:27,675 - logger_File -INFO - User clicked on Orders section
+2023-03-23 22:40:19,519 - logger_File -INFO - user is on retail website
+2023-03-23 22:40:19,522 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 22:40:19,710 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 22:40:19,909 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 22:40:19,982 - logger_File -INFO - user clicked on login button
+2023-03-23 22:40:20,294 - logger_File -INFO - User clicked on Orders section
+2023-03-23 22:40:26,152 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 22:46:57,980 - logger_File -INFO - user is on retail website
+2023-03-23 22:46:57,983 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 22:46:58,154 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 22:46:58,353 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 22:46:58,422 - logger_File -INFO - user clicked on login button
+2023-03-23 22:46:58,723 - logger_File -INFO - User clicked on Orders section
+2023-03-23 22:47:04,924 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 22:50:04,989 - logger_File -INFO - user is on retail website
+2023-03-23 22:50:04,991 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 22:50:05,099 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 22:50:05,312 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 22:50:05,383 - logger_File -INFO - user clicked on login button
+2023-03-23 22:50:05,802 - logger_File -INFO - User clicked on Orders section
+2023-03-23 22:50:11,885 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 22:50:11,975 - logger_File -INFO - User clicked in Cancel the Order Button
+2023-03-23 22:50:12,049 - logger_File -INFO - User selected the cancelation reason Bought wrong item
+2023-03-23 22:50:12,118 - logger_File -INFO - User clicked on Cancel order Button
+2023-03-23 22:50:12,259 - logger_File -INFO - Your Order Has Been Cancelled
+2023-03-23 22:56:13,378 - logger_File -INFO - user is on retail website
+2023-03-23 22:56:13,380 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 22:56:13,490 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 22:56:13,699 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 22:56:13,768 - logger_File -INFO - user clicked on login button
+2023-03-23 22:56:14,105 - logger_File -INFO - User clicked on Orders section
+2023-03-23 22:56:15,260 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 22:56:15,350 - logger_File -INFO - User clicked in Cancel the Order Button
+2023-03-23 22:56:15,420 - logger_File -INFO - User selected the cancelation reason Bought wrong item
+2023-03-23 22:56:15,484 - logger_File -INFO - User clicked on Cancel order Button
+2023-03-23 22:56:15,623 - logger_File -INFO - Your Order Has Been Cancelled
+2023-03-23 23:18:21,433 - logger_File -INFO - user is on retail website
+2023-03-23 23:18:21,436 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:18:21,633 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:18:21,829 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:18:21,901 - logger_File -INFO - user clicked on login button
+2023-03-23 23:18:22,235 - logger_File -INFO - User clicked on Orders section
+2023-03-23 23:18:23,403 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 23:18:23,494 - logger_File -INFO - User Clicked on first return Button
+2023-03-23 23:18:23,562 - logger_File -INFO - User selected the cancelation reason Item damaged
+2023-03-23 23:18:23,623 - logger_File -INFO - User select the dropp off service FedEx
+2023-03-23 23:18:23,688 - logger_File -INFO - User clicked on Return Button
+2023-03-23 23:18:23,829 - logger_File -INFO - Return was successfull
+2023-03-23 23:41:06,631 - logger_File -INFO - user is on retail website
+2023-03-23 23:41:06,635 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:41:06,802 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:41:06,998 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:41:07,067 - logger_File -INFO - user clicked on login button
+2023-03-23 23:41:07,406 - logger_File -INFO - User clicked on Orders section
+2023-03-23 23:41:08,796 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 23:41:08,869 - logger_File -INFO - User clicked on Review Button
+2023-03-23 23:41:09,063 - logger_File -INFO - User added Hedline Great Product and added comment message It is comfortable to use
+2023-03-23 23:41:09,142 - logger_File -INFO - User clicked on Add Review Button
+2023-03-23 23:46:50,734 - logger_File -INFO - user is on retail website
+2023-03-23 23:46:50,737 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:46:50,859 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:46:51,059 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:46:51,128 - logger_File -INFO - user clicked on login button
+2023-03-23 23:46:51,503 - logger_File -INFO - User clicked on Orders section
+2023-03-23 23:46:52,887 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 23:46:52,964 - logger_File -INFO - User clicked on Review Button
+2023-03-23 23:46:53,146 - logger_File -INFO - User added Hedline Great Product and added comment message It is comfortable to use
+2023-03-23 23:46:53,227 - logger_File -INFO - User clicked on Add Review Button
+2023-03-23 23:46:53,860 - logger_File -INFO - Your review was added successfully
+2023-03-23 23:48:06,759 - logger_File -INFO - user is on retail website
+2023-03-23 23:48:06,762 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:48:06,922 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:48:07,123 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:48:07,196 - logger_File -INFO - user clicked on login button
+2023-03-23 23:48:07,564 - logger_File -INFO - User clicked on Orders section
+2023-03-23 23:48:08,972 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 23:48:09,060 - logger_File -INFO - User clicked in Cancel the Order Button
+2023-03-23 23:48:09,132 - logger_File -INFO - User selected the cancelation reason Bought wrong item
+2023-03-23 23:48:09,198 - logger_File -INFO - User clicked on Cancel order Button
+2023-03-23 23:48:09,275 - logger_File -INFO - Your Order Has Been Cancelled
+2023-03-23 23:48:15,830 - logger_File -INFO - user is on retail website
+2023-03-23 23:48:15,831 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:48:15,991 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:48:16,187 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:48:16,254 - logger_File -INFO - user clicked on login button
+2023-03-23 23:48:16,559 - logger_File -INFO - User clicked on Orders section
+2023-03-23 23:48:18,027 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 23:48:18,111 - logger_File -INFO - User Clicked on first return Button
+2023-03-23 23:48:18,177 - logger_File -INFO - User selected the cancelation reason Item damaged
+2023-03-23 23:48:18,241 - logger_File -INFO - User select the dropp off service FedEx
+2023-03-23 23:48:18,308 - logger_File -INFO - User clicked on Return Button
+2023-03-23 23:48:18,391 - logger_File -INFO - Return was successfull
+2023-03-23 23:48:25,696 - logger_File -INFO - user is on retail website
+2023-03-23 23:48:25,697 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:48:25,858 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:48:26,041 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:48:26,110 - logger_File -INFO - user clicked on login button
+2023-03-23 23:48:26,451 - logger_File -INFO - User clicked on Orders section
+2023-03-23 23:48:27,713 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 23:48:27,794 - logger_File -INFO - User clicked on Review Button
+2023-03-23 23:48:27,963 - logger_File -INFO - User added Hedline Great Product and added comment message It is comfortable to use
+2023-03-23 23:48:28,038 - logger_File -INFO - User clicked on Add Review Button
+2023-03-23 23:48:28,665 - logger_File -INFO - Your review was added successfully
+2023-03-23 23:49:47,648 - logger_File -INFO - user is on retail website
+2023-03-23 23:49:47,653 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:49:47,810 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:49:48,002 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:49:48,068 - logger_File -INFO - user clicked on login button
+2023-03-23 23:49:48,438 - logger_File -INFO - user clicked on Account option
+2023-03-23 23:49:48,888 - logger_File -INFO - user updated Name and Phone values 
+2023-03-23 23:49:48,965 - logger_File -INFO - user clicked on Update button
+2023-03-23 23:49:49,595 - logger_File -INFO - user profile information updated
+2023-03-23 23:49:57,573 - logger_File -INFO - user is on retail website
+2023-03-23 23:49:57,573 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:49:57,762 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:49:57,963 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:49:58,035 - logger_File -INFO - user clicked on login button
+2023-03-23 23:49:58,388 - logger_File -INFO - user clicked on Account option
+2023-03-23 23:49:58,463 - logger_File -INFO - User clicked on Add a payment
+2023-03-23 23:49:58,842 - logger_File -INFO - Usser filled card info
+2023-03-23 23:49:58,911 - logger_File -INFO - User click on Add Your Card Button
+2023-03-23 23:49:59,547 - logger_File -INFO - Payment Method added sucessfully
+2023-03-23 23:50:07,132 - logger_File -INFO - user is on retail website
+2023-03-23 23:50:07,133 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:50:07,299 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:50:07,495 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:50:07,562 - logger_File -INFO - user clicked on login button
+2023-03-23 23:50:07,907 - logger_File -INFO - user clicked on Account option
+2023-03-23 23:50:08,056 - logger_File -INFO - User choose first card and clicked in Edit Button
+2023-03-23 23:50:08,573 - logger_File -INFO - Usser filled updated card info
+2023-03-23 23:50:08,644 - logger_File -INFO - user clicked on update button
+2023-03-23 23:50:09,335 - logger_File -INFO - Payment Method updated Successfully
+2023-03-23 23:50:17,790 - logger_File -INFO - user is on retail website
+2023-03-23 23:50:17,790 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:50:17,919 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:50:18,113 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:50:18,183 - logger_File -INFO - user clicked on login button
+2023-03-23 23:50:18,689 - logger_File -INFO - user clicked on Account option
+2023-03-23 23:50:18,758 - logger_File -INFO - User selected card for remove
+2023-03-23 23:50:18,857 - logger_File -INFO - American Express
+Debit Card Ending in .... 4648 Card removed successfully!
+2023-03-23 23:50:27,257 - logger_File -INFO - user is on retail website
+2023-03-23 23:50:27,257 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:50:27,418 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:50:27,602 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:50:27,666 - logger_File -INFO - user clicked on login button
+2023-03-23 23:50:27,967 - logger_File -INFO - user clicked on Account option
+2023-03-23 23:50:28,063 - logger_File -INFO - user clicked on Add address option
+2023-03-23 23:50:28,770 - logger_File -INFO - user filled the new address form with information provided in data table
+2023-03-23 23:50:28,846 - logger_File -INFO - user clicked on Add your Address button
+2023-03-23 23:50:38,176 - logger_File -INFO - user is on retail website
+2023-03-23 23:50:38,176 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:50:38,356 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:50:38,549 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:50:38,608 - logger_File -INFO - user clicked on login button
+2023-03-23 23:50:38,928 - logger_File -INFO - user clicked on Account option
+2023-03-23 23:50:39,016 - logger_File -INFO - User clicked on Edit button in the address
+2023-03-23 23:50:39,909 - logger_File -INFO - user filled the update address form with information provided in data table
+2023-03-23 23:50:42,036 - logger_File -INFO - User clicked on Update Address Button
+2023-03-23 23:50:42,667 - logger_File -INFO - Address Updated Successfully
+2023-03-23 23:50:50,706 - logger_File -INFO - user is on retail website
+2023-03-23 23:50:50,706 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:50:50,821 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:50:51,022 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:50:51,083 - logger_File -INFO - user clicked on login button
+2023-03-23 23:50:51,467 - logger_File -INFO - user clicked on Account option
+2023-03-23 23:50:51,559 - logger_File -INFO - User clicked in Remove Button
+2023-03-23 23:50:51,560 - logger_File -INFO - Lexie Paucek III
+735 Marc Ridges
+Suite 483
+NEW BELIA , MASSACHUSETTS 42775
+United States
+phone Number: 239-724-6210
+Edit
+|
+Remove User delete the address from the account
+2023-03-23 23:50:59,945 - logger_File -INFO - user is on retail website
+2023-03-23 23:50:59,945 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:51:00,095 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:51:00,264 - logger_File -INFO - user entered email mona87@test.com and password Mona1987!
+2023-03-23 23:51:00,329 - logger_File -INFO - user clicked on login button
+2023-03-23 23:51:00,645 - logger_File -INFO - user clicked on Account option
+2023-03-23 23:51:00,892 - logger_File -INFO - User entered old password   and updated to new password'
+2023-03-23 23:51:00,952 - logger_File -INFO - User clicked on change Password Button
+2023-03-23 23:51:01,898 - logger_File -INFO - Password Updated Successfully
+2023-03-23 23:51:09,868 - logger_File -INFO - user is on retail website
+2023-03-23 23:51:09,868 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:51:10,029 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:51:10,199 - logger_File -INFO - user entered email mona87@test.com and password Test12345!
+2023-03-23 23:51:10,263 - logger_File -INFO - user clicked on login button
+2023-03-23 23:51:10,569 - logger_File -INFO - user clicked on Account option
+2023-03-23 23:51:10,808 - logger_File -INFO - User entered old password   and updated to new password'
+2023-03-23 23:51:10,871 - logger_File -INFO - User clicked on change Password Button
+2023-03-23 23:51:11,793 - logger_File -INFO - Password Updated Successfully
+2023-03-23 23:51:19,437 - logger_File -INFO - user is on retail website
+2023-03-23 23:51:19,437 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:51:19,670 - logger_File -INFO - user searched for product pokemon
+2023-03-23 23:51:19,752 - logger_File -INFO - the Product is displayed on home page
+2023-03-23 23:51:27,358 - logger_File -INFO - user is on retail website
+2023-03-23 23:51:27,358 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:51:27,494 - logger_File -INFO - user clicked on All section
+2023-03-23 23:51:27,529 - logger_File -INFO - Electronics is equal to Electronics
+2023-03-23 23:51:27,552 - logger_File -INFO - Computers is equal to Computers
+2023-03-23 23:51:27,575 - logger_File -INFO - Smart Home is equal to Smart Home
+2023-03-23 23:51:27,600 - logger_File -INFO - Sports is equal to Sports
+2023-03-23 23:51:27,624 - logger_File -INFO - Automative is equal to Automative
+2023-03-23 23:51:35,510 - logger_File -INFO - user is on retail website
+2023-03-23 23:51:35,510 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:51:35,594 - logger_File -INFO - user clicked on All section
+2023-03-23 23:51:35,744 - logger_File -INFO - TV & Video is present 
+2023-03-23 23:51:35,780 - logger_File -INFO - Video Games is present 
+2023-03-23 23:51:42,967 - logger_File -INFO - user is on retail website
+2023-03-23 23:51:42,967 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:51:43,091 - logger_File -INFO - user clicked on All section
+2023-03-23 23:51:43,206 - logger_File -INFO - Accessories is present 
+2023-03-23 23:51:43,246 - logger_File -INFO - Networking is present 
+2023-03-23 23:51:51,080 - logger_File -INFO - user is on retail website
+2023-03-23 23:51:51,080 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:51:51,159 - logger_File -INFO - user clicked on All section
+2023-03-23 23:51:51,321 - logger_File -INFO - Smart Home Lightning is present 
+2023-03-23 23:51:51,361 - logger_File -INFO - Plugs and Outlets is present 
+2023-03-23 23:52:01,586 - logger_File -INFO - user is on retail website
+2023-03-23 23:52:01,586 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:52:01,715 - logger_File -INFO - user clicked on All section
+2023-03-23 23:52:01,845 - logger_File -INFO - Athletic Clothing is present 
+2023-03-23 23:52:01,885 - logger_File -INFO - Exercise & Fitness is present 
+2023-03-23 23:52:09,201 - logger_File -INFO - user is on retail website
+2023-03-23 23:52:09,201 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:52:09,349 - logger_File -INFO - user clicked on All section
+2023-03-23 23:52:09,500 - logger_File -INFO - Automative Parts & Accessories is present 
+2023-03-23 23:52:09,541 - logger_File -INFO - MotorCycle & Powersports is present 
+2023-03-23 23:52:18,214 - logger_File -INFO - user is on retail website
+2023-03-23 23:52:18,214 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:52:18,337 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:52:18,522 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:52:18,581 - logger_File -INFO - user clicked on login button
+2023-03-23 23:52:18,935 - logger_File -INFO - User clicked in all department and chose Smart Home
+2023-03-23 23:52:19,020 - logger_File -INFO - User entered and search for an Item kasa outdoor smart plug
+2023-03-23 23:52:19,083 - logger_File -INFO - User clicked on Search Button
+2023-03-23 23:52:19,221 - logger_File -INFO - User clicked on searched Item
+2023-03-23 23:52:19,453 - logger_File -INFO - User selected quantity 2
+2023-03-23 23:52:19,517 - logger_File -INFO - User clicked in Add Cart Button
+2023-03-23 23:52:19,604 - logger_File -INFO - The Cart quantity changed to 2
+2023-03-23 23:52:26,900 - logger_File -INFO - user is on retail website
+2023-03-23 23:52:26,900 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:52:27,071 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:52:27,247 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:52:27,310 - logger_File -INFO - user clicked on login button
+2023-03-23 23:52:27,684 - logger_File -INFO - User clicked in all department and chose Smart Home
+2023-03-23 23:52:27,778 - logger_File -INFO - User entered and search for an Item kasa outdoor smart plug
+2023-03-23 23:52:27,839 - logger_File -INFO - User clicked on Search Button
+2023-03-23 23:52:27,994 - logger_File -INFO - User clicked on searched Item
+2023-03-23 23:52:28,219 - logger_File -INFO - User selected quantity 2
+2023-03-23 23:52:28,302 - logger_File -INFO - User clicked in Add Cart Button
+2023-03-23 23:52:28,320 - logger_File -INFO - The Cart quantity changed to 2
+2023-03-23 23:52:28,395 - logger_File -INFO - User clicked on Cart Button
+2023-03-23 23:52:28,473 - logger_File -INFO - User clicked on proceed to checkout Button
+2023-03-23 23:52:28,556 - logger_File -INFO - User clicked on Add a new address button
+2023-03-23 23:52:29,178 - logger_File -INFO - user filled the new address form with information provided in data table
+2023-03-23 23:52:29,255 - logger_File -INFO - user clicked on Add your Address button
+2023-03-23 23:52:29,388 - logger_File -INFO - User clicked on Add a new cared Button
+2023-03-23 23:52:29,757 - logger_File -INFO - Usser filled card info
+2023-03-23 23:52:29,820 - logger_File -INFO - User click on Add Your Card Button
+2023-03-23 23:52:29,883 - logger_File -INFO - User clicked on Place your order Button
+2023-03-23 23:52:30,634 - logger_File -INFO - Order Placed Successfully
+2023-03-23 23:52:38,015 - logger_File -INFO - user is on retail website
+2023-03-23 23:52:38,015 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:52:38,169 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:52:38,345 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:52:38,407 - logger_File -INFO - user clicked on login button
+2023-03-23 23:52:38,764 - logger_File -INFO - User clicked in all department and chose Electronics
+2023-03-23 23:52:38,842 - logger_File -INFO - User entered and search for an Item Apex Legends
+2023-03-23 23:52:38,902 - logger_File -INFO - User clicked on Search Button
+2023-03-23 23:52:39,023 - logger_File -INFO - User clicked on searched Item
+2023-03-23 23:52:39,226 - logger_File -INFO - User selected quantity 5
+2023-03-23 23:52:39,320 - logger_File -INFO - User clicked in Add Cart Button
+2023-03-23 23:52:39,395 - logger_File -INFO - The Cart quantity changed to 5
+2023-03-23 23:52:39,468 - logger_File -INFO - User clicked on Cart Button
+2023-03-23 23:52:39,557 - logger_File -INFO - User clicked on proceed to checkout Button
+2023-03-23 23:52:39,618 - logger_File -INFO - User clicked on Place your order Button
+2023-03-23 23:52:40,350 - logger_File -INFO - Order Placed Successfully
+2023-03-23 23:52:47,458 - logger_File -INFO - user is on retail website
+2023-03-23 23:52:47,459 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:52:47,606 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:52:47,815 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:52:47,880 - logger_File -INFO - user clicked on login button
+2023-03-23 23:52:48,193 - logger_File -INFO - User clicked on Orders section
+2023-03-23 23:52:49,571 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 23:52:49,661 - logger_File -INFO - User clicked in Cancel the Order Button
+2023-03-23 23:52:49,723 - logger_File -INFO - User selected the cancelation reason Bought wrong item
+2023-03-23 23:52:49,784 - logger_File -INFO - User clicked on Cancel order Button
+2023-03-23 23:52:49,870 - logger_File -INFO - Your Order Has Been Cancelled
+2023-03-23 23:52:56,799 - logger_File -INFO - user is on retail website
+2023-03-23 23:52:56,800 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:52:56,936 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:52:57,121 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:52:57,183 - logger_File -INFO - user clicked on login button
+2023-03-23 23:52:57,510 - logger_File -INFO - User clicked on Orders section
+2023-03-23 23:52:58,823 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 23:52:58,910 - logger_File -INFO - User Clicked on first return Button
+2023-03-23 23:52:58,971 - logger_File -INFO - User selected the cancelation reason Item damaged
+2023-03-23 23:52:59,032 - logger_File -INFO - User select the dropp off service FedEx
+2023-03-23 23:52:59,099 - logger_File -INFO - User clicked on Return Button
+2023-03-23 23:52:59,246 - logger_File -INFO - Return was successfull
+2023-03-23 23:53:07,164 - logger_File -INFO - user is on retail website
+2023-03-23 23:53:07,164 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:53:07,322 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:53:07,507 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:53:07,566 - logger_File -INFO - user clicked on login button
+2023-03-23 23:53:07,858 - logger_File -INFO - User clicked on Orders section
+2023-03-23 23:53:09,129 - logger_File -INFO - User clicked on first order in list for cancel order
+2023-03-23 23:53:09,203 - logger_File -INFO - User clicked on Review Button
+2023-03-23 23:53:09,373 - logger_File -INFO - User added Hedline Great Product and added comment message It is comfortable to use
+2023-03-23 23:53:09,446 - logger_File -INFO - User clicked on Add Review Button
+2023-03-23 23:53:10,072 - logger_File -INFO - Your review was added successfully
+2023-03-23 23:53:17,701 - logger_File -INFO - user is on retail website
+2023-03-23 23:53:17,701 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:53:17,807 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:53:18,010 - logger_File -INFO - user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+2023-03-23 23:53:18,074 - logger_File -INFO - user clicked on login button
+2023-03-23 23:53:25,551 - logger_File -INFO - user is on retail website
+2023-03-23 23:53:25,551 - logger_File -INFO - Actual Title React App Equals  ExpectedTitle React App
+2023-03-23 23:53:25,728 - logger_File -INFO - User clicked on Sign in Option
+2023-03-23 23:53:25,807 - logger_File -INFO - user clicked on Create New Account button
+2023-03-23 23:53:26,118 - logger_File -INFO - user filled the signUp information form
+2023-03-23 23:53:26,179 - logger_File -INFO - user clicked on SignUpForm button
+2023-03-23 23:53:26,447 - logger_File -INFO - user is login into account page
