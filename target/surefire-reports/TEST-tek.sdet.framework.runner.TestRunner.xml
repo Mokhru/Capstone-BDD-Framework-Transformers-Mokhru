@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tek.sdet.framework.runner.TestRunner" time="69.958" tests="24" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tek.sdet.framework.runner.TestRunner" time="73.015" tests="24" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Owner\AppData\Local\Temp\surefire9962114817311228157\surefirebooter-20230324174255920_3.jar C:\Users\Owner\AppData\Local\Temp\surefire9962114817311228157 2023-03-24T17-42-55_340-jvmRun1 surefire-20230324174255920_1tmp surefire_0-20230324174255920_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Owner\AppData\Local\Temp\surefire4677343898086249207\surefirebooter-20230324175939806_3.jar C:\Users\Owner\AppData\Local\Temp\surefire4677343898086249207 2023-03-24T17-59-39_200-jvmRun1 surefire-20230324175939806_1tmp surefire_0-20230324175939806_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Owner\capstoneProject\tek-capstone-bdd-framework-transformers-tekschool-Mokhru\target\test-classes;C:\Users\Owner\capstoneProject\tek-capstone-bdd-framework-transformers-tekschool-Mokhru\target\classes;C:\Users\Owner\.m2\repository\io\cucumber\cucumber-java\7.8.0\cucumber-java-7.8.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\cucumber-core\7.8.0\cucumber-core-7.8.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\cucumber-gherkin\7.8.0\cucumber-gherkin-7.8.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.0\cucumber-gherkin-messages-7.8.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\messages\19.1.2\messages-19.1.2.jar;C:\Users\Owner\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\datatable\7.8.0\datatable-7.8.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\cucumber-plugin\7.8.0\cucumber-plugin-7.8.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\docstring\7.8.0\docstring-7.8.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Owner\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Owner\.m2\repository\io\cucumber\cucumber-junit\7.8.0\cucumber-junit-7.8.0.jar;C:\Users\Owner\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Owner\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-java\4.4.0\selenium-java-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-api\4.4.0\selenium-api-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.4.0\selenium-chrome-driver-4.4.0.jar;C:\Users\Owner\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Owner\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Owner\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Owner\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Owner\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Owner\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Owner\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Owner\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Owner\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Owner\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.4.0\selenium-chromium-driver-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-json\4.4.0\selenium-json-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.4.0\selenium-devtools-v102-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.4.0\selenium-devtools-v103-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.4.0\selenium-devtools-v104-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.4.0\selenium-devtools-v85-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.4.0\selenium-edge-driver-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.4.0\selenium-firefox-driver-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.4.0\selenium-ie-driver-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.4.0\selenium-opera-driver-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.4.0\selenium-remote-driver-4.4.0.jar;C:\Users\Owner\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Owner\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-api\1.16.0\opentelemetry-api-1.16.0.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-context\1.16.0\opentelemetry-context-1.16.0.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.16.0\opentelemetry-exporter-logging-1.16.0.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.16.0\opentelemetry-sdk-metrics-1.16.0.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.16.0-alpha\opentelemetry-sdk-logs-1.16.0-alpha.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.16.0\opentelemetry-sdk-common-1.16.0.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.16.0\opentelemetry-sdk-extension-autoconfigure-spi-1.16.0.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.16.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.16.0-alpha.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.16.0\opentelemetry-sdk-trace-1.16.0.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.16.0\opentelemetry-sdk-1.16.0.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.16.0-alpha\opentelemetry-semconv-1.16.0-alpha.jar;C:\Users\Owner\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Owner\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Owner\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Owner\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Owner\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Owner\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Owner\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Owner\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Owner\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Owner\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-http\4.4.0\selenium-http-4.4.0.jar;C:\Users\Owner\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.4.0\selenium-safari-driver-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-support\4.4.0\selenium-support-4.4.0.jar;C:\Users\Owner\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\Owner\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Owner\.m2\repository\com\google\code\gson\gson\2.9.1\gson-2.9.1.jar;C:\Users\Owner\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\Owner\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\Owner\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\Owner\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Owner\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Owner\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Owner\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Owner\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Owner\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Owner\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\Owner\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\Owner\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Owner\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Owner\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Owner\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\Owner\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\Owner\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\Owner\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Owner\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Owner\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Owner\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Owner\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Owner\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Owner\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Owner\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Owner\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Owner\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Owner\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Owner\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar;C:\Users\Owner\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\Owner\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Owner\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\Owner\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Owner\.m2\repository\net\datafaker\datafaker\1.8.0\datafaker-1.8.0.jar;C:\Users\Owner\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Owner\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Owner\AppData\Local\Temp\surefire9962114817311228157\surefirebooter-20230324174255920_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Owner\AppData\Local\Temp\surefire4677343898086249207\surefirebooter-20230324175939806_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Verify User can update Profile Information" classname="Retail Application Account Feature" time="4.676">
+  <testcase name="Verify User can update Profile Information" classname="Retail Application Account Feature" time="4.848">
     <system-out><![CDATA[
 @completeTest @updateProfile
 Scenario: Verify User can update Profile Information                              # features/RetailAccount.feature:12
@@ -88,21 +88,21 @@ Scenario: Verify User can update Profile Information                            
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
-Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 59784
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 50563
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:42:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 5:59:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:42:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 5:59:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:42:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 5:59:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:42:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 5:59:43 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can add a payment method" classname="Retail Application Account Feature" time="3.067">
+  <testcase name="Verify User can add a payment method" classname="Retail Application Account Feature" time="3.145">
     <system-out><![CDATA[
 @completeTest @addPayment
 Scenario: Verify User can add a payment method                                    # features/RetailAccount.feature:19
@@ -129,21 +129,21 @@ Scenario: Verify User can add a payment method                                  
  INFO [main] (RetailAccountSteps.java:102)- Payment Method added sucessfully
   Then Card added message should be displayed 'Payment Method added sucessfully'  # tek.sdet.framework.steps.RetailAccountSteps.cardMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 50275
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 60578
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 5:59:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 5:59:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 5:59:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 5:59:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can edit Debit or Credit card" classname="Retail Application Account Feature" time="3.261">
+  <testcase name="Verify User can edit Debit or Credit card" classname="Retail Application Account Feature" time="3.375">
     <system-out><![CDATA[
 @completeTest @editCard
 Scenario: Verify User can edit Debit or Credit card                                   # features/RetailAccount.feature:29
@@ -170,21 +170,21 @@ Scenario: Verify User can edit Debit or Credit card                             
  INFO [main] (RetailAccountSteps.java:138)- Payment Method updated Successfully
   Then Card updated message should be displayed 'Payment Method updated Successfully' # tek.sdet.framework.steps.RetailAccountSteps.cardUpdatedMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 57782
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 65417
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 5:59:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 5:59:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 5:59:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 5:59:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can remove Debit or Credit card" classname="Retail Application Account Feature" time="2.074">
+  <testcase name="Verify User can remove Debit or Credit card" classname="Retail Application Account Feature" time="2.121">
     <system-out><![CDATA[
 @completeTest @removeCard
 Scenario: Verify User can remove Debit or Credit card                             # features/RetailAccount.feature:39
@@ -206,21 +206,21 @@ Scenario: Verify User can remove Debit or Credit card                           
 Debit Card Ending in .... 9852 Card removed successfully!
   Then payment details should be removed                                          # tek.sdet.framework.steps.RetailAccountSteps.paymentDetailsShouldBeRemoved()
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 62941
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 58991
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 5:59:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 5:59:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 5:59:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 5:59:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can add  an Address" classname="Retail Application Account Feature" time="3.389">
+  <testcase name="Verify User can add  an Address" classname="Retail Application Account Feature" time="3.408">
     <system-out><![CDATA[
 @completeTest @addAddress
 Scenario: Verify User can add  an Address                                         # features/RetailAccount.feature:45
@@ -245,21 +245,21 @@ Scenario: Verify User can add  an Address                                       
   And User click Add Your Address button                                          # tek.sdet.framework.steps.RetailAccountSteps.userClickAddYourAddressButton()
   Then Address message should be displayed 'Address Added Successfully'           # tek.sdet.framework.steps.RetailAccountSteps.aMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 64921
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 51365
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 5:59:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 5:59:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 5:59:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 5:59:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can edit an Address added on account" classname="Retail Application Account Feature" time="5.788">
+  <testcase name="Verify User can edit an Address added on account" classname="Retail Application Account Feature" time="5.762">
     <system-out><![CDATA[
 @completeTest @editAddress
 Scenario: Verify User can edit an Address added on account                        # features/RetailAccount.feature:54
@@ -285,21 +285,21 @@ Scenario: Verify User can edit an Address added on account                      
  INFO [main] (RetailAccountSteps.java:227)- Address Updated Successfully
   Then Updated address message should be displayed 'Address Updated Successfully' # tek.sdet.framework.steps.RetailAccountSteps.updatedAddressMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 61764
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 60114
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 5:59:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 5:59:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 5:59:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 5:59:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can remove Address from Account" classname="Retail Application Account Feature" time="2.387">
+  <testcase name="Verify User can remove Address from Account" classname="Retail Application Account Feature" time="2.028">
     <system-out><![CDATA[
 @completeTest @removeAddress
 Scenario: Verify User can remove Address from Account                             # features/RetailAccount.feature:63
@@ -317,32 +317,32 @@ Scenario: Verify User can remove Address from Account                           
   When User click on Account option                                               # tek.sdet.framework.steps.RetailAccountSteps.userClickOnAccountOption()
  INFO [main] (RetailAccountSteps.java:237)- User clicked in Remove Button
   And User click on remove option of Address section                              # tek.sdet.framework.steps.RetailAccountSteps.userClickOnRemoveOptionOfAddressSection()
- INFO [main] (RetailAccountSteps.java:243)- Arnold Bins DDS
-1293 Brandon Garden
-Suite 671
-NORTH RENATO , LOUISIANA 57324
+ INFO [main] (RetailAccountSteps.java:243)- Alix Beier
+0754 Langosh Loop
+Apt. 517
+ELOYFURT , MAINE 9355
 United States
-phone Number: 312-724-4735
+phone Number: 413.408.8991
 Edit
 |
 Remove User delete the address from the account
   Then Address details should be removed                                          # tek.sdet.framework.steps.RetailAccountSteps.addressDetailsShouldBeRemoved()
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 55665
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 58238
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can Update password #1" classname="Retail Application Account Password Update Feature" time="2.991">
+  <testcase name="Verify User can Update password #1" classname="Retail Application Account Password Update Feature" time="3.227">
     <system-out><![CDATA[
 @completeTest
 Scenario Outline: Verify User can Update password                    # features/RetailAccountUpdatePassword.feature:19
@@ -367,21 +367,21 @@ Scenario Outline: Verify User can Update password                    # features/
  INFO [main] (RetailAccountSteps.java:69)- Password Updated Successfully
   Then a message should be displayed 'Password Updated Successfully' # tek.sdet.framework.steps.RetailAccountSteps.aMessageShouldBeDisplayedPasswordUpdatedSuccessfully(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 50693
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 50112
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can Update password #2" classname="Retail Application Account Password Update Feature" time="3.074">
+  <testcase name="Verify User can Update password #2" classname="Retail Application Account Password Update Feature" time="3.766">
     <system-out><![CDATA[
 @completeTest
 Scenario Outline: Verify User can Update password                    # features/RetailAccountUpdatePassword.feature:20
@@ -406,21 +406,21 @@ Scenario Outline: Verify User can Update password                    # features/
  INFO [main] (RetailAccountSteps.java:69)- Password Updated Successfully
   Then a message should be displayed 'Password Updated Successfully' # tek.sdet.framework.steps.RetailAccountSteps.aMessageShouldBeDisplayedPasswordUpdatedSuccessfully(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 57034
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 56918
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify user can search a product" classname="This feature is use for testing UI of Retail page" time="1.492">
+  <testcase name="Verify user can search a product" classname="This feature is use for testing UI of Retail page" time="1.543">
     <system-out><![CDATA[
 @completeTest
 Scenario: Verify user can search a product # features/RetailHome.feature:4
@@ -432,21 +432,21 @@ Scenario: Verify user can search a product # features/RetailHome.feature:4
  INFO [main] (RetailHomeSteps.java:41)- the Product is displayed on home page
   Then The product should be displayed     # tek.sdet.framework.steps.RetailHomeSteps.theProductShouldBeDisplayed()
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 61831
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 50068
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify Shop by Department sidebar" classname="This feature is use for testing UI of Retail page" time="1.476">
+  <testcase name="Verify Shop by Department sidebar" classname="This feature is use for testing UI of Retail page" time="1.492">
     <system-out><![CDATA[
 @completeTest
 Scenario: Verify Shop by Department sidebar                    # features/RetailHome.feature:9
@@ -463,21 +463,21 @@ Scenario: Verify Shop by Department sidebar                    # features/Retail
   Then below options are present in shop by department sidebar # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInShopByDepartmentSidebar(io.cucumber.datatable.DataTable)
     | Electronics | Computers | Smart Home | Sports | Automative |
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 50043
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 52841
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify Department sidebar options #1" classname="This feature is use for testing UI of Retail page" time="1.415">
+  <testcase name="Verify Department sidebar options #1" classname="This feature is use for testing UI of Retail page" time="1.595">
     <system-out><![CDATA[
 @completeTest
 Scenario Outline: Verify Department sidebar options # features/RetailHome.feature:24
@@ -492,21 +492,21 @@ Scenario Outline: Verify Department sidebar options # features/RetailHome.featur
   Then below options are present in department      # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInDepartment(io.cucumber.datatable.DataTable)
     | TV & Video | Video Games |
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 56737
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 59624
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify Department sidebar options #2" classname="This feature is use for testing UI of Retail page" time="1.449">
+  <testcase name="Verify Department sidebar options #2" classname="This feature is use for testing UI of Retail page" time="1.486">
     <system-out><![CDATA[
 @completeTest
 Scenario Outline: Verify Department sidebar options # features/RetailHome.feature:25
@@ -521,21 +521,21 @@ Scenario Outline: Verify Department sidebar options # features/RetailHome.featur
   Then below options are present in department      # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInDepartment(io.cucumber.datatable.DataTable)
     | Accessories | Networking |
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 62641
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 50314
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify Department sidebar options #3" classname="This feature is use for testing UI of Retail page" time="1.392">
+  <testcase name="Verify Department sidebar options #3" classname="This feature is use for testing UI of Retail page" time="1.513">
     <system-out><![CDATA[
 @completeTest
 Scenario Outline: Verify Department sidebar options # features/RetailHome.feature:26
@@ -550,21 +550,21 @@ Scenario Outline: Verify Department sidebar options # features/RetailHome.featur
   Then below options are present in department      # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInDepartment(io.cucumber.datatable.DataTable)
     | Smart Home Lightning | Plugs and Outlets |
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 60944
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 60761
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify Department sidebar options #4" classname="This feature is use for testing UI of Retail page" time="1.502">
+  <testcase name="Verify Department sidebar options #4" classname="This feature is use for testing UI of Retail page" time="1.499">
     <system-out><![CDATA[
 @completeTest
 Scenario Outline: Verify Department sidebar options # features/RetailHome.feature:27
@@ -579,21 +579,21 @@ Scenario Outline: Verify Department sidebar options # features/RetailHome.featur
   Then below options are present in department      # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInDepartment(io.cucumber.datatable.DataTable)
     | Athletic Clothing | Exercise & Fitness |
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 51729
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 65422
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify Department sidebar options #5" classname="This feature is use for testing UI of Retail page" time="1.612">
+  <testcase name="Verify Department sidebar options #5" classname="This feature is use for testing UI of Retail page" time="1.512">
     <system-out><![CDATA[
 @completeTest
 Scenario Outline: Verify Department sidebar options # features/RetailHome.feature:28
@@ -608,21 +608,21 @@ Scenario Outline: Verify Department sidebar options # features/RetailHome.featur
   Then below options are present in department      # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInDepartment(io.cucumber.datatable.DataTable)
     | Automative Parts & Accessories | MotorCycle & Powersports |
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 64542
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 63472
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can add an item to cart" classname="This feature is use for testing UI of Retail page" time="2.466">
+  <testcase name="Verify User can add an item to cart" classname="This feature is use for testing UI of Retail page" time="2.603">
     <system-out><![CDATA[
 @completeTest @addItemToCart
 Scenario: Verify User can add an item to cart                                     # features/RetailHome.feature:31
@@ -651,21 +651,21 @@ Scenario: Verify User can add an item to cart                                   
  INFO [main] (RetailHomeSteps.java:157)- The Cart quantity changed to 2
   Then the cart icon quantity should change to '2'                                # tek.sdet.framework.steps.RetailHomeSteps.theCartIconQuantityShouldChangeTo(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 49412
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 58301
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can place an order without Shipping address and payment Method on file" classname="This feature is use for testing UI of Retail page" time="4.589">
+  <testcase name="Verify User can place an order without Shipping address and payment Method on file" classname="This feature is use for testing UI of Retail page" time="4.838">
     <system-out><![CDATA[
 @completeTest @placeAnOrder
 Scenario: Verify User can place an order without Shipping address and payment Method on file # features/RetailHome.feature:46
@@ -717,21 +717,21 @@ Scenario: Verify User can place an order without Shipping address and payment Me
  INFO [main] (RetailHomeSteps.java:195)- Order Placed Successfully
   Then Place Order  message should be displayed 'Order Placed Successfully'                  # tek.sdet.framework.steps.RetailHomeSteps.placeOrderMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 65162
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 50713
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can place an order with Shipping address and payment Method on file" classname="This feature is use for testing UI of Retail page" time="3.501">
+  <testcase name="Verify User can place an order with Shipping address and payment Method on file" classname="This feature is use for testing UI of Retail page" time="3.51">
     <system-out><![CDATA[
 @completeTest @placeorderwithAddress
 Scenario: Verify User can place an order with Shipping address and payment Method on file # features/RetailHome.feature:74
@@ -768,21 +768,21 @@ Scenario: Verify User can place an order with Shipping address and payment Metho
  INFO [main] (RetailHomeSteps.java:195)- Order Placed Successfully
   Then Place Order  message should be displayed 'Order Placed Successfully'               # tek.sdet.framework.steps.RetailHomeSteps.placeOrderMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 58091
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 60575
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can cancel the order" classname="Retail Order Page" time="4.375">
+  <testcase name="Verify User can cancel the order" classname="Retail Order Page" time="4.89">
     <system-out><![CDATA[
 @completeTest @cancelOrder
 Scenario: Verify User can cancel the order                                        # features/RetailOrder.feature:13
@@ -827,6 +827,10 @@ Scenario: Verify User can cancel the order                                      
 27
 28
 29
+30
+31
+32
+33
  INFO [main] (RetailOrderSteps.java:33)- User clicked on first order in list for cancel order
   And User click on first order in list                                           # tek.sdet.framework.steps.RetailOrderSteps.userClickOnFirstOrderInList()
  INFO [main] (RetailOrderSteps.java:40)- User clicked in Cancel the Order Button
@@ -838,21 +842,21 @@ Scenario: Verify User can cancel the order                                      
  INFO [main] (RetailOrderSteps.java:59)- Your Order Has Been Cancelled
   Then a cancelation message should be displayed 'Your Order Has Been Cancelled'  # tek.sdet.framework.steps.RetailOrderSteps.aCancelationMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 63623
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 62784
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can Return the order" classname="Retail Order Page" time="4.532">
+  <testcase name="Verify User can Return the order" classname="Retail Order Page" time="4.818">
     <system-out><![CDATA[
 @completeTest @returnOrder
 Scenario: Verify User can Return the order                                        # features/RetailOrder.feature:21
@@ -897,6 +901,10 @@ Scenario: Verify User can Return the order                                      
 27
 28
 29
+30
+31
+32
+33
  INFO [main] (RetailOrderSteps.java:33)- User clicked on first order in list for cancel order
   And User click on first order in list                                           # tek.sdet.framework.steps.RetailOrderSteps.userClickOnFirstOrderInList()
  INFO [main] (RetailOrderSteps.java:66)- User Clicked on first return Button
@@ -910,21 +918,21 @@ Scenario: Verify User can Return the order                                      
  INFO [main] (RetailOrderSteps.java:90)- Return was successfull
   Then a return message should be displayed 'Return was successfull'              # tek.sdet.framework.steps.RetailOrderSteps.aReturnMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 51667
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 56387
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can write a review on order placed" classname="Retail Order Page" time="4.844">
+  <testcase name="Verify User can write a review on order placed" classname="Retail Order Page" time="5.268">
     <system-out><![CDATA[
 @completeTest @reviewOrder
 Scenario: Verify User can write a review on order placed                          # features/RetailOrder.feature:30
@@ -968,6 +976,10 @@ Scenario: Verify User can write a review on order placed                        
 26
 27
 28
+29
+30
+31
+32
  INFO [main] (RetailOrderSteps.java:33)- User clicked on first order in list for cancel order
   And User click on first order in list                                           # tek.sdet.framework.steps.RetailOrderSteps.userClickOnFirstOrderInList()
  INFO [main] (RetailOrderSteps.java:97)- User clicked on Review Button
@@ -979,21 +991,21 @@ Scenario: Verify User can write a review on order placed                        
  INFO [main] (RetailOrderSteps.java:117)- Your review was added successfully
   Then Review message should be displayed 'Your review was added successfully'    # tek.sdet.framework.steps.RetailOrderSteps.reviewMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 64457
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 60061
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:43:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:43:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:43:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:43:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify user can sign in into Retail Application" classname="TEK Retail Application SignIn feature" time="1.768">
+  <testcase name="Verify user can sign in into Retail Application" classname="TEK Retail Application SignIn feature" time="1.822">
     <system-out><![CDATA[
 @completeTest
 Scenario: Verify user can sign in into Retail Application                         # features/SignIn.feature:8
@@ -1008,21 +1020,21 @@ Scenario: Verify user can sign in into Retail Application                       
   And User click on login button                                                  # tek.sdet.framework.steps.SignInSteps.userClickOnLoginButton()
   Then User should be logged in into Account                                      # tek.sdet.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 56159
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 50253
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:44:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:44:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:44:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:44:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify user can create an acount into Retail Website" classname="TEK Retail Application SignIn feature" time="2.061">
+  <testcase name="Verify user can create an acount into Retail Website" classname="TEK Retail Application SignIn feature" time="2.167">
     <system-out><![CDATA[
 @completeTest @createAccount
 Scenario: Verify user can create an acount into Retail Website # features/SignIn.feature:14
@@ -1039,20 +1051,20 @@ Scenario: Verify user can create an acount into Retail Website # features/SignIn
     | fullName | email | Tek12345! | Tek12345!       |
  INFO [main] (SignInSteps.java:62)- user clicked on SignUpForm button
   And User click on SignUp button                              # tek.sdet.framework.steps.SignInSteps.userClickOnSignUpButton()
- INFO [main] (SignInSteps.java:68)- user is login into account page
+ INFO [main] (SignInSteps.java:69)- user is login into account page
   Then User should be logged into account page                 # tek.sdet.framework.steps.SignInSteps.userShouldBeLoggedIntoAccountPage()
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 55439
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 56393
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 24, 2023 5:44:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 6:00:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 24, 2023 5:44:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 24, 2023 5:44:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 6:00:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 24, 2023 5:44:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 6:00:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
