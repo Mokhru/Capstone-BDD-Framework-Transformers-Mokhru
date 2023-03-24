@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tek.sdet.framework.runner.TestRunner" time="160.78" tests="19" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tek.sdet.framework.runner.TestRunner" time="222.253" tests="24" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Owner\AppData\Local\Temp\surefire16059593498593475392\surefirebooter-20230319035831635_3.jar C:\Users\Owner\AppData\Local\Temp\surefire16059593498593475392 2023-03-19T03-58-30_990-jvmRun1 surefire-20230319035831635_1tmp surefire_0-20230319035831635_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Owner\AppData\Local\Temp\surefire14433735766759971965\surefirebooter-20230324162118232_3.jar C:\Users\Owner\AppData\Local\Temp\surefire14433735766759971965 2023-03-24T16-21-17_663-jvmRun1 surefire-20230324162118232_1tmp surefire_0-20230324162118232_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Owner\capstoneProject\tek-capstone-bdd-framework-transformers-tekschool-Mokhru\target\test-classes;C:\Users\Owner\capstoneProject\tek-capstone-bdd-framework-transformers-tekschool-Mokhru\target\classes;C:\Users\Owner\.m2\repository\io\cucumber\cucumber-java\7.8.0\cucumber-java-7.8.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\cucumber-core\7.8.0\cucumber-core-7.8.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\cucumber-gherkin\7.8.0\cucumber-gherkin-7.8.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.0\cucumber-gherkin-messages-7.8.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\messages\19.1.2\messages-19.1.2.jar;C:\Users\Owner\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\datatable\7.8.0\datatable-7.8.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\cucumber-plugin\7.8.0\cucumber-plugin-7.8.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\docstring\7.8.0\docstring-7.8.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\Owner\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Owner\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Owner\.m2\repository\io\cucumber\cucumber-junit\7.8.0\cucumber-junit-7.8.0.jar;C:\Users\Owner\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Owner\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-java\4.4.0\selenium-java-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-api\4.4.0\selenium-api-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.4.0\selenium-chrome-driver-4.4.0.jar;C:\Users\Owner\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Owner\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Owner\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Owner\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Owner\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Owner\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Owner\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Owner\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Owner\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Owner\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.4.0\selenium-chromium-driver-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-json\4.4.0\selenium-json-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.4.0\selenium-devtools-v102-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.4.0\selenium-devtools-v103-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.4.0\selenium-devtools-v104-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.4.0\selenium-devtools-v85-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.4.0\selenium-edge-driver-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.4.0\selenium-firefox-driver-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.4.0\selenium-ie-driver-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.4.0\selenium-opera-driver-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.4.0\selenium-remote-driver-4.4.0.jar;C:\Users\Owner\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Owner\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-api\1.16.0\opentelemetry-api-1.16.0.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-context\1.16.0\opentelemetry-context-1.16.0.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.16.0\opentelemetry-exporter-logging-1.16.0.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.16.0\opentelemetry-sdk-metrics-1.16.0.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.16.0-alpha\opentelemetry-sdk-logs-1.16.0-alpha.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.16.0\opentelemetry-sdk-common-1.16.0.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.16.0\opentelemetry-sdk-extension-autoconfigure-spi-1.16.0.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.16.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.16.0-alpha.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.16.0\opentelemetry-sdk-trace-1.16.0.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.16.0\opentelemetry-sdk-1.16.0.jar;C:\Users\Owner\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.16.0-alpha\opentelemetry-semconv-1.16.0-alpha.jar;C:\Users\Owner\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Owner\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Owner\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Owner\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Owner\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Owner\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Owner\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Owner\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Owner\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Owner\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Owner\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-http\4.4.0\selenium-http-4.4.0.jar;C:\Users\Owner\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.4.0\selenium-safari-driver-4.4.0.jar;C:\Users\Owner\.m2\repository\org\seleniumhq\selenium\selenium-support\4.4.0\selenium-support-4.4.0.jar;C:\Users\Owner\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\Owner\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Owner\.m2\repository\com\google\code\gson\gson\2.9.1\gson-2.9.1.jar;C:\Users\Owner\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\Owner\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\Owner\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\Owner\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Owner\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Owner\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Owner\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Owner\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Owner\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Owner\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\Owner\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\Owner\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Owner\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Owner\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Owner\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\Owner\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\Owner\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\Owner\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Owner\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Owner\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Owner\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Owner\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Owner\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Owner\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Owner\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Owner\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Owner\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Owner\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Owner\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar;C:\Users\Owner\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\Owner\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Owner\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar;C:\Users\Owner\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Owner\.m2\repository\net\datafaker\datafaker\1.8.0\datafaker-1.8.0.jar;C:\Users\Owner\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Owner\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Owner\AppData\Local\Temp\surefire16059593498593475392\surefirebooter-20230319035831635_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Owner\AppData\Local\Temp\surefire14433735766759971965\surefirebooter-20230324162118232_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Verify User can update Profile Information" classname="Retail Application Account Feature" time="12.106">
+  <testcase name="Verify User can update Profile Information" classname="Retail Application Account Feature" time="11.385">
     <system-out><![CDATA[
 @completeTest @updateProfile
 Scenario: Verify User can update Profile Information                              # features/RetailAccount.feature:12
@@ -88,24 +88,24 @@ Scenario: Verify User can update Profile Information                            
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
-Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 53328
+Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 56092
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 3:58:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:21:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 3:58:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:21:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 3:58:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:21:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 3:58:42 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:21:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can add a payment method" classname="Retail Application Account Feature" time="7.175">
+  <testcase name="Verify User can add a payment method" classname="Retail Application Account Feature" time="9.948">
     <system-out><![CDATA[
 @completeTest @addPayment
 Scenario: Verify User can add a payment method                                    # features/RetailAccount.feature:19
@@ -132,24 +132,24 @@ Scenario: Verify User can add a payment method                                  
  INFO [main] (RetailAccountSteps.java:102)- Payment Method added sucessfully
   Then Card added message should be displayed 'Payment Method added sucessfully'  # tek.sdet.framework.steps.RetailAccountSteps.cardMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 56836
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 50155
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 3:58:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:21:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 3:58:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:21:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 3:58:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:21:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 3:58:49 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:21:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can edit Debit or Credit card" classname="Retail Application Account Feature" time="8.06">
+  <testcase name="Verify User can edit Debit or Credit card" classname="Retail Application Account Feature" time="10.198">
     <system-out><![CDATA[
 @completeTest @editCard
 Scenario: Verify User can edit Debit or Credit card                                   # features/RetailAccount.feature:29
@@ -176,56 +176,24 @@ Scenario: Verify User can edit Debit or Credit card                             
  INFO [main] (RetailAccountSteps.java:138)- Payment Method updated Successfully
   Then Card updated message should be displayed 'Payment Method updated Successfully' # tek.sdet.framework.steps.RetailAccountSteps.cardUpdatedMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 62300
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 49788
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 3:58:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:21:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 3:58:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:21:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 3:58:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:21:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 3:58:57 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:21:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can remove Debit or Credit card" classname="Retail Application Account Feature" time="27.039">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class = &apos;false account__payment-item&apos;])[1]&quot;}&#10;  (Session info: MicrosoftEdge=111.0.1661.44)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;&#10;System info: host: &apos;DESKTOP-39D5ITO&apos;, ip: &apos;192.168.1.205&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [e491508e3d7e13bd4e7e89a9503542ba, findElement {using=xpath, value=(//div[@class = &apos;false account__payment-item&apos;])[1]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, ms:edgeOptions: {debuggerAddress: localhost:51155}, msedge: {msedgedriverVersion: 111.0.1661.44 (fc2a57ec5a41..., userDataDir: C:\Users\Owner\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51155/devtoo..., se:cdpVersion: 111.0.1661.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e491508e3d7e13bd4e7e89a9503542ba" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class = 'false account__payment-item'])[1]"}
-  (Session info: MicrosoftEdge=111.0.1661.44)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-39D5ITO', ip: '192.168.1.205', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e491508e3d7e13bd4e7e89a9503542ba, findElement {using=xpath, value=(//div[@class = 'false account__payment-item'])[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, ms:edgeOptions: {debuggerAddress: localhost:51155}, msedge: {msedgedriverVersion: 111.0.1661.44 (fc2a57ec5a41..., userDataDir: C:\Users\Owner\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51155/devtoo..., se:cdpVersion: 111.0.1661.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e491508e3d7e13bd4e7e89a9503542ba
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy24.getText(Unknown Source)
-	at tek.sdet.framework.utilities.CommonUtility.getText(CommonUtility.java:125)
-	at tek.sdet.framework.steps.RetailAccountSteps.paymentDetailsShouldBeRemoved(RetailAccountSteps.java:151)
-	at ✽.payment details should be removed(classpath:features/RetailAccount.feature:42)
-]]></error>
+  <testcase name="Verify User can remove Debit or Credit card" classname="Retail Application Account Feature" time="8.472">
     <system-out><![CDATA[
 @completeTest @removeCard
 Scenario: Verify User can remove Debit or Credit card                             # features/RetailAccount.feature:39
@@ -243,60 +211,28 @@ Scenario: Verify User can remove Debit or Credit card                           
   When User click on Account option                                               # tek.sdet.framework.steps.RetailAccountSteps.userClickOnAccountOption()
  INFO [main] (RetailAccountSteps.java:146)- User selected card for remove
   And User click on remove option of card section                                 # tek.sdet.framework.steps.RetailAccountSteps.userClickOnRemoveOptionOfCardSection()
+ INFO [main] (RetailAccountSteps.java:153)- Master Card
+Debit Card Ending in .... 8281 Card removed successfully!
   Then payment details should be removed                                          # tek.sdet.framework.steps.RetailAccountSteps.paymentDetailsShouldBeRemoved()
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class = 'false account__payment-item'])[1]"}
-  (Session info: MicrosoftEdge=111.0.1661.44)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-39D5ITO', ip: '192.168.1.205', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e491508e3d7e13bd4e7e89a9503542ba, findElement {using=xpath, value=(//div[@class = 'false account__payment-item'])[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.44, ms:edgeOptions: {debuggerAddress: localhost:51155}, msedge: {msedgedriverVersion: 111.0.1661.44 (fc2a57ec5a41..., userDataDir: C:\Users\Owner\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51155/devtoo..., se:cdpVersion: 111.0.1661.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e491508e3d7e13bd4e7e89a9503542ba
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy24.getText(Unknown Source)
-	at tek.sdet.framework.utilities.CommonUtility.getText(CommonUtility.java:125)
-	at tek.sdet.framework.steps.RetailAccountSteps.paymentDetailsShouldBeRemoved(RetailAccountSteps.java:151)
-	at âœ½.payment details should be removed(classpath:features/RetailAccount.feature:42)
-
-
-    Embedding Verify User can remove Debit or Credit card scenario Failed [image/png 102830 bytes]
-
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 53708
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 64423
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 3:59:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:21:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 3:59:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:21:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 3:59:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:21:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 3:59:05 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:21:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can add  an Address" classname="Retail Application Account Feature" time="6.225">
+  <testcase name="Verify User can add  an Address" classname="Retail Application Account Feature" time="9.868">
     <system-out><![CDATA[
 @completeTest @addAddress
 Scenario: Verify User can add  an Address                                         # features/RetailAccount.feature:45
@@ -321,24 +257,24 @@ Scenario: Verify User can add  an Address                                       
   And User click Add Your Address button                                          # tek.sdet.framework.steps.RetailAccountSteps.userClickAddYourAddressButton()
   Then Address message should be displayed 'Address Added Successfully'           # tek.sdet.framework.steps.RetailAccountSteps.aMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 55238
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 56482
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 3:59:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:22:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 3:59:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:22:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 3:59:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:22:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 3:59:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:22:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can edit an Address added on account" classname="Retail Application Account Feature" time="10.414">
+  <testcase name="Verify User can edit an Address added on account" classname="Retail Application Account Feature" time="11.5">
     <system-out><![CDATA[
 @completeTest @editAddress
 Scenario: Verify User can edit an Address added on account                        # features/RetailAccount.feature:54
@@ -364,24 +300,24 @@ Scenario: Verify User can edit an Address added on account                      
  INFO [main] (RetailAccountSteps.java:227)- Address Updated Successfully
   Then Updated address message should be displayed 'Address Updated Successfully' # tek.sdet.framework.steps.RetailAccountSteps.updatedAddressMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 63910
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 61913
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 3:59:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:22:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 3:59:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:22:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 3:59:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:22:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 3:59:38 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:22:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can remove Address from Account" classname="Retail Application Account Feature" time="5.973">
+  <testcase name="Verify User can remove Address from Account" classname="Retail Application Account Feature" time="8.465">
     <system-out><![CDATA[
 @completeTest @removeAddress
 Scenario: Verify User can remove Address from Account                             # features/RetailAccount.feature:63
@@ -399,35 +335,35 @@ Scenario: Verify User can remove Address from Account                           
   When User click on Account option                                               # tek.sdet.framework.steps.RetailAccountSteps.userClickOnAccountOption()
  INFO [main] (RetailAccountSteps.java:237)- User clicked in Remove Button
   And User click on remove option of Address section                              # tek.sdet.framework.steps.RetailAccountSteps.userClickOnRemoveOptionOfAddressSection()
- INFO [main] (RetailAccountSteps.java:243)- Lashunda Jacobi
-76237 Candelaria Glens
-Suite 673
-HARVEYMOUTH , MICHIGAN 3091
+ INFO [main] (RetailAccountSteps.java:243)- Janessa Berge
+7298 Crist Bridge
+Apt. 215
+WEST DEBORAH , MONTANA 71156
 United States
-phone Number: (269) 213-2819
+phone Number: (910) 904-5240
 Edit
 |
 Remove User delete the address from the account
   Then Address details should be removed                                          # tek.sdet.framework.steps.RetailAccountSteps.addressDetailsShouldBeRemoved()
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 51034
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 62040
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 3:59:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:22:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 3:59:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:22:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 3:59:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:22:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 3:59:48 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:22:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can Update password #1" classname="Retail Application Account Password Update Feature" time="7.78">
+  <testcase name="Verify User can Update password #1" classname="Retail Application Account Password Update Feature" time="10.195">
     <system-out><![CDATA[
 @completeTest
 Scenario Outline: Verify User can Update password                    # features/RetailAccountUpdatePassword.feature:19
@@ -452,24 +388,24 @@ Scenario Outline: Verify User can Update password                    # features/
  INFO [main] (RetailAccountSteps.java:69)- Password Updated Successfully
   Then a message should be displayed 'Password Updated Successfully' # tek.sdet.framework.steps.RetailAccountSteps.aMessageShouldBeDisplayedPasswordUpdatedSuccessfully(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 60871
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 61117
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 3:59:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:22:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 3:59:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:22:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 3:59:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:22:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 3:59:55 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:22:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can Update password #2" classname="Retail Application Account Password Update Feature" time="8.243">
+  <testcase name="Verify User can Update password #2" classname="Retail Application Account Password Update Feature" time="9.889">
     <system-out><![CDATA[
 @completeTest
 Scenario Outline: Verify User can Update password                    # features/RetailAccountUpdatePassword.feature:20
@@ -494,24 +430,24 @@ Scenario Outline: Verify User can Update password                    # features/
  INFO [main] (RetailAccountSteps.java:69)- Password Updated Successfully
   Then a message should be displayed 'Password Updated Successfully' # tek.sdet.framework.steps.RetailAccountSteps.aMessageShouldBeDisplayedPasswordUpdatedSuccessfully(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 59619
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 53893
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 4:00:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:22:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 4:00:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:22:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 4:00:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:22:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 4:00:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:22:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify user can search a product" classname="This feature is use for testing UI of Retail page" time="8.503">
+  <testcase name="Verify user can search a product" classname="This feature is use for testing UI of Retail page" time="7.834">
     <system-out><![CDATA[
 @completeTest
 Scenario: Verify user can search a product # features/RetailHome.feature:4
@@ -523,24 +459,24 @@ Scenario: Verify user can search a product # features/RetailHome.feature:4
  INFO [main] (RetailHomeSteps.java:41)- the Product is displayed on home page
   Then The product should be displayed     # tek.sdet.framework.steps.RetailHomeSteps.theProductShouldBeDisplayed()
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 53240
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 60358
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 4:00:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:22:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 4:00:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:22:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 4:00:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:22:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 4:00:13 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:22:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify Shop by Department sidebar" classname="This feature is use for testing UI of Retail page" time="8.366">
+  <testcase name="Verify Shop by Department sidebar" classname="This feature is use for testing UI of Retail page" time="7.688">
     <system-out><![CDATA[
 @completeTest
 Scenario: Verify Shop by Department sidebar                    # features/RetailHome.feature:9
@@ -557,24 +493,24 @@ Scenario: Verify Shop by Department sidebar                    # features/Retail
   Then below options are present in shop by department sidebar # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInShopByDepartmentSidebar(io.cucumber.datatable.DataTable)
     | Electronics | Computers | Smart Home | Sports | Automative |
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 49274
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 56731
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 4:00:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:23:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 4:00:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:23:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 4:00:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:23:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 4:00:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:23:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify Department sidebar options #1" classname="This feature is use for testing UI of Retail page" time="6.336">
+  <testcase name="Verify Department sidebar options #1" classname="This feature is use for testing UI of Retail page" time="7.956">
     <system-out><![CDATA[
 @completeTest
 Scenario Outline: Verify Department sidebar options # features/RetailHome.feature:24
@@ -589,24 +525,24 @@ Scenario Outline: Verify Department sidebar options # features/RetailHome.featur
   Then below options are present in department      # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInDepartment(io.cucumber.datatable.DataTable)
     | TV & Video | Video Games |
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 50370
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 54141
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 4:00:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:23:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 4:00:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:23:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 4:00:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:23:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 4:00:28 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:23:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify Department sidebar options #2" classname="This feature is use for testing UI of Retail page" time="5.677">
+  <testcase name="Verify Department sidebar options #2" classname="This feature is use for testing UI of Retail page" time="7.971">
     <system-out><![CDATA[
 @completeTest
 Scenario Outline: Verify Department sidebar options # features/RetailHome.feature:25
@@ -621,24 +557,24 @@ Scenario Outline: Verify Department sidebar options # features/RetailHome.featur
   Then below options are present in department      # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInDepartment(io.cucumber.datatable.DataTable)
     | Accessories | Networking |
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 65262
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 57109
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 4:00:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:23:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 4:00:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:23:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 4:00:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:23:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 4:00:34 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:23:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify Department sidebar options #3" classname="This feature is use for testing UI of Retail page" time="5.873">
+  <testcase name="Verify Department sidebar options #3" classname="This feature is use for testing UI of Retail page" time="7.68">
     <system-out><![CDATA[
 @completeTest
 Scenario Outline: Verify Department sidebar options # features/RetailHome.feature:26
@@ -653,24 +589,24 @@ Scenario Outline: Verify Department sidebar options # features/RetailHome.featur
   Then below options are present in department      # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInDepartment(io.cucumber.datatable.DataTable)
     | Smart Home Lightning | Plugs and Outlets |
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 63128
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 58827
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 4:00:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:23:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 4:00:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:23:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 4:00:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:23:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 4:00:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:23:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify Department sidebar options #4" classname="This feature is use for testing UI of Retail page" time="6.056">
+  <testcase name="Verify Department sidebar options #4" classname="This feature is use for testing UI of Retail page" time="8.017">
     <system-out><![CDATA[
 @completeTest
 Scenario Outline: Verify Department sidebar options # features/RetailHome.feature:27
@@ -685,24 +621,24 @@ Scenario Outline: Verify Department sidebar options # features/RetailHome.featur
   Then below options are present in department      # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInDepartment(io.cucumber.datatable.DataTable)
     | Athletic Clothing | Exercise & Fitness |
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 64775
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 64765
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 4:00:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:23:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 4:00:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:23:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 4:00:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:23:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 4:00:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:23:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify Department sidebar options #5" classname="This feature is use for testing UI of Retail page" time="6.225">
+  <testcase name="Verify Department sidebar options #5" classname="This feature is use for testing UI of Retail page" time="7.117">
     <system-out><![CDATA[
 @completeTest
 Scenario Outline: Verify Department sidebar options # features/RetailHome.feature:28
@@ -717,24 +653,24 @@ Scenario Outline: Verify Department sidebar options # features/RetailHome.featur
   Then below options are present in department      # tek.sdet.framework.steps.RetailHomeSteps.belowOptionsArePresentInDepartment(io.cucumber.datatable.DataTable)
     | Automative Parts & Accessories | MotorCycle & Powersports |
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 63058
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 56553
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 4:00:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:23:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 4:00:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:23:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 4:00:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:23:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 4:00:52 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:23:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify User can add an item to cart" classname="This feature is use for testing UI of Retail page" time="7.019">
+  <testcase name="Verify User can add an item to cart" classname="This feature is use for testing UI of Retail page" time="9.243">
     <system-out><![CDATA[
 @completeTest @addItemToCart
 Scenario: Verify User can add an item to cart                                     # features/RetailHome.feature:31
@@ -763,24 +699,340 @@ Scenario: Verify User can add an item to cart                                   
  INFO [main] (RetailHomeSteps.java:157)- The Cart quantity changed to 2
   Then the cart icon quantity should change to '2'                                # tek.sdet.framework.steps.RetailHomeSteps.theCartIconQuantityShouldChangeTo(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 63997
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 60392
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 4:00:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:23:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 4:00:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:23:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 4:00:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:23:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 4:00:57 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:23:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify user can sign in into Retail Application" classname="TEK Retail Application SignIn feature" time="5.932">
+  <testcase name="Verify User can place an order without Shipping address and payment Method on file" classname="This feature is use for testing UI of Retail page" time="11.469">
+    <system-out><![CDATA[
+@completeTest @placeAnOrder
+Scenario: Verify User can place an order without Shipping address and payment Method on file # features/RetailHome.feature:46
+ INFO [main] (RetailHomeSteps.java:26)- user is on retail website
+ INFO [main] (RetailHomeSteps.java:27)- Actual Title React App Equals  ExpectedTitle React App
+  Given User is on retail website                                                            # tek.sdet.framework.steps.RetailHomeSteps.userIsOnRetailWebsite()
+ INFO [main] (SignInSteps.java:22)- User clicked on Sign in Option
+  When User click on Sign in option                                                          # tek.sdet.framework.steps.SignInSteps.userClickOnSignInOption()
+ INFO [main] (SignInSteps.java:29)- user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+  And User enter email 'mohruniyozmamadova@gmail.com' and password 'Zarrina1964!'            # tek.sdet.framework.steps.SignInSteps.userEnterEmailAndPassword(java.lang.String,java.lang.String)
+ INFO [main] (SignInSteps.java:35)- user clicked on login button
+  And User click on login button                                                             # tek.sdet.framework.steps.SignInSteps.userClickOnLoginButton()
+  And User should be logged in into Account                                                  # tek.sdet.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
+ INFO [main] (RetailHomeSteps.java:111)- User clicked in all department and chose Smart Home
+  And User change the category to 'Smart Home'                                               # tek.sdet.framework.steps.RetailHomeSteps.userChangeTheCategoryTo(java.lang.String)
+ INFO [main] (RetailHomeSteps.java:118)- User entered and search for an Item kasa outdoor smart plug
+  And User search for an item 'kasa outdoor smart plug'                                      # tek.sdet.framework.steps.RetailHomeSteps.userSearchForAnItem(java.lang.String)
+ INFO [main] (RetailHomeSteps.java:125)- User clicked on Search Button
+  And User click on Search icon                                                              # tek.sdet.framework.steps.RetailHomeSteps.userClickOnSearchIcon()
+ INFO [main] (RetailHomeSteps.java:132)- User clicked on searched Item
+  And User click on item                                                                     # tek.sdet.framework.steps.RetailHomeSteps.userClickOnItem()
+ INFO [main] (RetailHomeSteps.java:141)- User selected quantity 2
+  And User select quantity '2'                                                               # tek.sdet.framework.steps.RetailHomeSteps.userSelectQuantity(java.lang.String)
+ INFO [main] (RetailHomeSteps.java:148)- User clicked in Add Cart Button
+  And User click add to Cart button                                                          # tek.sdet.framework.steps.RetailHomeSteps.userClickAddToCartButton()
+ INFO [main] (RetailHomeSteps.java:157)- The Cart quantity changed to 2
+  Then the cart icon quantity should change to '2'                                           # tek.sdet.framework.steps.RetailHomeSteps.theCartIconQuantityShouldChangeTo(java.lang.String)
+ INFO [main] (RetailHomeSteps.java:164)- User clicked on Cart Button
+  And User click on Cart option                                                              # tek.sdet.framework.steps.RetailHomeSteps.userClickOnCartOption()
+ INFO [main] (RetailHomeSteps.java:170)- User clicked on proceed to checkout Button
+  And User click on Proceed to Checkout button                                               # tek.sdet.framework.steps.RetailHomeSteps.userClickOnProceedToCheckoutButton()
+ INFO [main] (RetailHomeSteps.java:176)- User clicked on Add a new address button
+  And User click Add a new address link for shipping address                                 # tek.sdet.framework.steps.RetailHomeSteps.userClickAddANewAddressLinkForShippingAddress()
+ INFO [main] (RetailAccountSteps.java:176)- user filled the new address form with information provided in data table
+  And User fill new address form with below information                                      # tek.sdet.framework.steps.RetailAccountSteps.userFllNewAddressFormWithBelowInformation(io.cucumber.datatable.DataTable)
+    | country | fullName | PhoneNumber | StreetAddress | apt | city | state | zipCode |
+ INFO [main] (RetailAccountSteps.java:182)- user clicked on Add your Address button
+  And User click Add Your Address button                                                     # tek.sdet.framework.steps.RetailAccountSteps.userClickAddYourAddressButton()
+ INFO [main] (RetailHomeSteps.java:182)- User clicked on Add a new cared Button
+  And User click Add a credit card or Debit Card for Payment method                          # tek.sdet.framework.steps.RetailHomeSteps.userClickAddACreditCardOrDebitCardForPaymentMethod()
+ INFO [main] (RetailAccountSteps.java:88)- Usser filled card info
+  And User fill Debit or credit card information                                             # tek.sdet.framework.steps.RetailAccountSteps.userFillDebitOrCreditCardInformation(io.cucumber.datatable.DataTable)
+    | cardNumber | nameOnCard | expirationMonth | expirationYear | securityCode |
+    | cardNumber | fullName   | 6               | 2025           | 235          |
+ INFO [main] (RetailAccountSteps.java:95)- User click on Add Your Card Button
+  And User click on Add your card button                                                     # tek.sdet.framework.steps.RetailAccountSteps.userClickOnAddYourCardButton()
+ INFO [main] (RetailHomeSteps.java:188)- User clicked on Place your order Button
+  And User click on Place Your Order                                                         # tek.sdet.framework.steps.RetailHomeSteps.userClickOnPlaceYourOrder()
+ INFO [main] (RetailHomeSteps.java:195)- Order Placed Successfully
+  Then Place Order  message should be displayed 'Order Placed Successfully'                  # tek.sdet.framework.steps.RetailHomeSteps.placeOrderMessageShouldBeDisplayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 57229
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 24, 2023 4:23:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mar 24, 2023 4:23:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
+Mar 24, 2023 4:23:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 111.
+Mar 24, 2023 4:23:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Verify User can place an order with Shipping address and payment Method on file" classname="This feature is use for testing UI of Retail page" time="9.815">
+    <system-out><![CDATA[
+@completeTest @placeorderwithAddress
+Scenario: Verify User can place an order with Shipping address and payment Method on file # features/RetailHome.feature:74
+ INFO [main] (RetailHomeSteps.java:26)- user is on retail website
+ INFO [main] (RetailHomeSteps.java:27)- Actual Title React App Equals  ExpectedTitle React App
+  Given User is on retail website                                                         # tek.sdet.framework.steps.RetailHomeSteps.userIsOnRetailWebsite()
+ INFO [main] (SignInSteps.java:22)- User clicked on Sign in Option
+  When User click on Sign in option                                                       # tek.sdet.framework.steps.SignInSteps.userClickOnSignInOption()
+ INFO [main] (SignInSteps.java:29)- user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+  And User enter email 'mohruniyozmamadova@gmail.com' and password 'Zarrina1964!'         # tek.sdet.framework.steps.SignInSteps.userEnterEmailAndPassword(java.lang.String,java.lang.String)
+ INFO [main] (SignInSteps.java:35)- user clicked on login button
+  And User click on login button                                                          # tek.sdet.framework.steps.SignInSteps.userClickOnLoginButton()
+  And User should be logged in into Account                                               # tek.sdet.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
+ INFO [main] (RetailHomeSteps.java:111)- User clicked in all department and chose Electronics
+  And User change the category to 'Electronics'                                           # tek.sdet.framework.steps.RetailHomeSteps.userChangeTheCategoryTo(java.lang.String)
+ INFO [main] (RetailHomeSteps.java:118)- User entered and search for an Item Apex Legends
+  And User search for an item 'Apex Legends'                                              # tek.sdet.framework.steps.RetailHomeSteps.userSearchForAnItem(java.lang.String)
+ INFO [main] (RetailHomeSteps.java:125)- User clicked on Search Button
+  And User click on Search icon                                                           # tek.sdet.framework.steps.RetailHomeSteps.userClickOnSearchIcon()
+ INFO [main] (RetailHomeSteps.java:132)- User clicked on searched Item
+  And User click on item                                                                  # tek.sdet.framework.steps.RetailHomeSteps.userClickOnItem()
+ INFO [main] (RetailHomeSteps.java:141)- User selected quantity 5
+  And User select quantity '5'                                                            # tek.sdet.framework.steps.RetailHomeSteps.userSelectQuantity(java.lang.String)
+ INFO [main] (RetailHomeSteps.java:148)- User clicked in Add Cart Button
+  And User click add to Cart button                                                       # tek.sdet.framework.steps.RetailHomeSteps.userClickAddToCartButton()
+ INFO [main] (RetailHomeSteps.java:157)- The Cart quantity changed to 5
+  Then the cart icon quantity should change to '5'                                        # tek.sdet.framework.steps.RetailHomeSteps.theCartIconQuantityShouldChangeTo(java.lang.String)
+ INFO [main] (RetailHomeSteps.java:164)- User clicked on Cart Button
+  And User click on Cart option                                                           # tek.sdet.framework.steps.RetailHomeSteps.userClickOnCartOption()
+ INFO [main] (RetailHomeSteps.java:170)- User clicked on proceed to checkout Button
+  And User click on Proceed to Checkout button                                            # tek.sdet.framework.steps.RetailHomeSteps.userClickOnProceedToCheckoutButton()
+ INFO [main] (RetailHomeSteps.java:188)- User clicked on Place your order Button
+  And User click on Place Your Order                                                      # tek.sdet.framework.steps.RetailHomeSteps.userClickOnPlaceYourOrder()
+ INFO [main] (RetailHomeSteps.java:195)- Order Placed Successfully
+  Then Place Order  message should be displayed 'Order Placed Successfully'               # tek.sdet.framework.steps.RetailHomeSteps.placeOrderMessageShouldBeDisplayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 56061
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 24, 2023 4:24:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mar 24, 2023 4:24:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
+Mar 24, 2023 4:24:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 111.
+Mar 24, 2023 4:24:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Verify User can cancel the order" classname="Retail Order Page" time="10.414">
+    <system-out><![CDATA[
+@completeTest @cancelOrder
+Scenario: Verify User can cancel the order                                        # features/RetailOrder.feature:13
+ INFO [main] (RetailHomeSteps.java:26)- user is on retail website
+ INFO [main] (RetailHomeSteps.java:27)- Actual Title React App Equals  ExpectedTitle React App
+  Given User is on retail website                                                 # tek.sdet.framework.steps.RetailHomeSteps.userIsOnRetailWebsite()
+ INFO [main] (SignInSteps.java:22)- User clicked on Sign in Option
+  When User click on Sign in option                                               # tek.sdet.framework.steps.SignInSteps.userClickOnSignInOption()
+ INFO [main] (SignInSteps.java:29)- user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+  And User enter email 'mohruniyozmamadova@gmail.com' and password 'Zarrina1964!' # tek.sdet.framework.steps.SignInSteps.userEnterEmailAndPassword(java.lang.String,java.lang.String)
+ INFO [main] (SignInSteps.java:35)- user clicked on login button
+  And User click on login button                                                  # tek.sdet.framework.steps.SignInSteps.userClickOnLoginButton()
+  And User should be logged in into Account                                       # tek.sdet.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
+ INFO [main] (RetailOrderSteps.java:19)- User clicked on Orders section
+  And User click on Orders section                                                # tek.sdet.framework.steps.RetailOrderSteps.userClickOnOrdersSection()
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+ INFO [main] (RetailOrderSteps.java:33)- User clicked on first order in list for cancel order
+  And User click on first order in list                                           # tek.sdet.framework.steps.RetailOrderSteps.userClickOnFirstOrderInList()
+ INFO [main] (RetailOrderSteps.java:40)- User clicked in Cancel the Order Button
+  And User click on Cancel The Order button                                       # tek.sdet.framework.steps.RetailOrderSteps.userClickOnCancelTheOrderButton()
+ INFO [main] (RetailOrderSteps.java:46)- User selected the cancelation reason Bought wrong item
+  And User select the cancelation Reason 'Bought wrong item'                      # tek.sdet.framework.steps.RetailOrderSteps.userSelectTheCancelationReason(java.lang.String)
+ INFO [main] (RetailOrderSteps.java:52)- User clicked on Cancel order Button
+  And User click on Cancel Order button                                           # tek.sdet.framework.steps.RetailOrderSteps.userClickOnCancelOrderButton()
+ INFO [main] (RetailOrderSteps.java:59)- Your Order Has Been Cancelled
+  Then a cancelation message should be displayed 'Your Order Has Been Cancelled'  # tek.sdet.framework.steps.RetailOrderSteps.aCancelationMessageShouldBeDisplayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 59767
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 24, 2023 4:24:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mar 24, 2023 4:24:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
+Mar 24, 2023 4:24:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 111.
+Mar 24, 2023 4:24:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Verify User can Return the order" classname="Retail Order Page" time="10.18">
+    <system-out><![CDATA[
+@completeTest @returnOrder
+Scenario: Verify User can Return the order                                        # features/RetailOrder.feature:21
+ INFO [main] (RetailHomeSteps.java:26)- user is on retail website
+ INFO [main] (RetailHomeSteps.java:27)- Actual Title React App Equals  ExpectedTitle React App
+  Given User is on retail website                                                 # tek.sdet.framework.steps.RetailHomeSteps.userIsOnRetailWebsite()
+ INFO [main] (SignInSteps.java:22)- User clicked on Sign in Option
+  When User click on Sign in option                                               # tek.sdet.framework.steps.SignInSteps.userClickOnSignInOption()
+ INFO [main] (SignInSteps.java:29)- user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+  And User enter email 'mohruniyozmamadova@gmail.com' and password 'Zarrina1964!' # tek.sdet.framework.steps.SignInSteps.userEnterEmailAndPassword(java.lang.String,java.lang.String)
+ INFO [main] (SignInSteps.java:35)- user clicked on login button
+  And User click on login button                                                  # tek.sdet.framework.steps.SignInSteps.userClickOnLoginButton()
+  And User should be logged in into Account                                       # tek.sdet.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
+ INFO [main] (RetailOrderSteps.java:19)- User clicked on Orders section
+  And User click on Orders section                                                # tek.sdet.framework.steps.RetailOrderSteps.userClickOnOrdersSection()
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+ INFO [main] (RetailOrderSteps.java:33)- User clicked on first order in list for cancel order
+  And User click on first order in list                                           # tek.sdet.framework.steps.RetailOrderSteps.userClickOnFirstOrderInList()
+ INFO [main] (RetailOrderSteps.java:66)- User Clicked on first return Button
+  And User click on Return Items button                                           # tek.sdet.framework.steps.RetailOrderSteps.userClickOnReturnItemsButton()
+ INFO [main] (RetailOrderSteps.java:72)- User selected the cancelation reason Item damaged
+  And User select the Return Reason 'Item damaged'                                # tek.sdet.framework.steps.RetailOrderSteps.userSelectTheReturnReason(java.lang.String)
+ INFO [main] (RetailOrderSteps.java:78)- User select the dropp off service FedEx
+  And User select the drop off service 'FedEx'                                    # tek.sdet.framework.steps.RetailOrderSteps.userSelectTheDropOffService(java.lang.String)
+ INFO [main] (RetailOrderSteps.java:84)- User clicked on Return Button
+  And User click on Return Order button                                           # tek.sdet.framework.steps.RetailOrderSteps.userClickOnReturnOrderButton()
+ INFO [main] (RetailOrderSteps.java:90)- Return was successfull
+  Then a return message should be displayed 'Return was successfull'              # tek.sdet.framework.steps.RetailOrderSteps.aReturnMessageShouldBeDisplayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 53283
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 24, 2023 4:24:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mar 24, 2023 4:24:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
+Mar 24, 2023 4:24:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 111.
+Mar 24, 2023 4:24:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Verify User can write a review on order placed" classname="Retail Order Page" time="9.992">
+    <system-out><![CDATA[
+@completeTest @reviewOrder
+Scenario: Verify User can write a review on order placed                          # features/RetailOrder.feature:30
+ INFO [main] (RetailHomeSteps.java:26)- user is on retail website
+ INFO [main] (RetailHomeSteps.java:27)- Actual Title React App Equals  ExpectedTitle React App
+  Given User is on retail website                                                 # tek.sdet.framework.steps.RetailHomeSteps.userIsOnRetailWebsite()
+ INFO [main] (SignInSteps.java:22)- User clicked on Sign in Option
+  When User click on Sign in option                                               # tek.sdet.framework.steps.SignInSteps.userClickOnSignInOption()
+ INFO [main] (SignInSteps.java:29)- user entered email mohruniyozmamadova@gmail.com and password Zarrina1964!
+  And User enter email 'mohruniyozmamadova@gmail.com' and password 'Zarrina1964!' # tek.sdet.framework.steps.SignInSteps.userEnterEmailAndPassword(java.lang.String,java.lang.String)
+ INFO [main] (SignInSteps.java:35)- user clicked on login button
+  And User click on login button                                                  # tek.sdet.framework.steps.SignInSteps.userClickOnLoginButton()
+  And User should be logged in into Account                                       # tek.sdet.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
+ INFO [main] (RetailOrderSteps.java:19)- User clicked on Orders section
+  And User click on Orders section                                                # tek.sdet.framework.steps.RetailOrderSteps.userClickOnOrdersSection()
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+ INFO [main] (RetailOrderSteps.java:33)- User clicked on first order in list for cancel order
+  And User click on first order in list                                           # tek.sdet.framework.steps.RetailOrderSteps.userClickOnFirstOrderInList()
+ INFO [main] (RetailOrderSteps.java:97)- User clicked on Review Button
+  And User click on Review button                                                 # tek.sdet.framework.steps.RetailOrderSteps.userClickOnReviewButton()
+ INFO [main] (RetailOrderSteps.java:104)- User added Hedline Great Product and added comment message It is comfortable to use
+  And User write Review headline 'Great Product' and 'It is comfortable to use'   # tek.sdet.framework.steps.RetailOrderSteps.userWriteReviewHeadlineAnd(java.lang.String,java.lang.String)
+ INFO [main] (RetailOrderSteps.java:110)- User clicked on Add Review Button
+  And User click Add your Review button                                           # tek.sdet.framework.steps.RetailOrderSteps.userClickAddYourReviewButton()
+ INFO [main] (RetailOrderSteps.java:117)- Your review was added successfully
+  Then Review message should be displayed 'Your review was added successfully'    # tek.sdet.framework.steps.RetailOrderSteps.reviewMessageShouldBeDisplayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 59232
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Mar 24, 2023 4:24:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Mar 24, 2023 4:24:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
+Mar 24, 2023 4:24:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 111.
+Mar 24, 2023 4:24:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Verify user can sign in into Retail Application" classname="TEK Retail Application SignIn feature" time="8.026">
     <system-out><![CDATA[
 @completeTest
 Scenario: Verify user can sign in into Retail Application                         # features/SignIn.feature:8
@@ -795,24 +1047,24 @@ Scenario: Verify user can sign in into Retail Application                       
   And User click on login button                                                  # tek.sdet.framework.steps.SignInSteps.userClickOnLoginButton()
   Then User should be logged in into Account                                      # tek.sdet.framework.steps.SignInSteps.userShouldBeLoggedInIntoAccount()
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 63850
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 61440
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 4:01:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:24:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 4:01:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:24:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 4:01:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:24:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 4:01:04 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:24:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Verify user can create an acount into Retail Website" classname="TEK Retail Application SignIn feature" time="6.684">
+  <testcase name="Verify user can create an acount into Retail Website" classname="TEK Retail Application SignIn feature" time="8.16">
     <system-out><![CDATA[
 @completeTest @createAccount
 Scenario: Verify user can create an acount into Retail Website # features/SignIn.feature:14
@@ -832,20 +1084,20 @@ Scenario: Verify user can create an acount into Retail Website # features/SignIn
  INFO [main] (SignInSteps.java:68)- user is login into account page
   Then User should be logged into account page                 # tek.sdet.framework.steps.SignInSteps.userShouldBeLoggedIntoAccountPage()
 ]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.44 (fc2a57ec5a410298200db8ad3013657d5472c408) on port 61910
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 111.0.1661.51 (5b30e0e79e572b7d6873934eb1b328c220c72c9b) on port 55289
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-Mar 19, 2023 4:01:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 24, 2023 4:24:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Mar 19, 2023 4:01:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:24:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: a no-op implementation
-Mar 19, 2023 4:01:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 24, 2023 4:24:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 111.
-Mar 19, 2023 4:01:11 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Mar 24, 2023 4:24:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
